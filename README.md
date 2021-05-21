@@ -1,2 +1,2 @@
 # WynnHelp
-Wynncraft issue (and potential solution) tracker.
+Wynncraft issue (and potential solution) tracker. Unofficial.
