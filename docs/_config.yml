@@ -23,6 +23,9 @@ github_username:  SayaDuck
 
 # Build settings
 markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
 #theme: minima
 minima:
   skin: dark
