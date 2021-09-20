@@ -1,0 +1,12 @@
+Issue Name,Quest Level,Quest Name,Stage,Notes,Status,Solution (if any)
+Gert Mask in The Hunger of Gerts Part 1 doesn't work,77,The Hunger of Gerts Part 1,9,,Not a Bug,Don't shift click the mask on. Put it in your helmet slot. 
+Priest won't let you in during Grave Digger,20,Grave Digger,2,"Might bamboozle you into thinking it's a Stage 3 issue, but it's not.",Not a Bug,Right click Drucksh with the Potion of Drunkness in your inventory. Don't right click while holding it as that's the cause of the issue.
+Beanstalk in The Fortuneteller sends you back down/to a black box/teleports you down,97,The Fortuneteller,5,It's a bit of a 5-6 issue,Not a Bug,"Your questbook will say ""Find the beanstalk"" but you need it to say ""Climb the beanstalk"" to progress. Go back down the path and walk up again. You missed a trigger when walking up to the beanstalk. Do the parkour without any spells. Just don't use movement spells in general. "
+Captured Gert in The Hunger of Gerts Part 2 doesn't let you leave,78,The Hunger of Gerts Part 2,10,"""Turn off the power"" stage",Not a Bug,"Wrong stairs. It's the wooden ramp, not the spiral staircase."
+"Captured Gert in The Hunger of Gerts Part 2 says nothing or ""me eat human""",78,The Hunger of Gerts Part 2,9,,Not a Bug,"Your questbook says ""Talk to Captured Gert"" or something of that sort. You probably missed a trigger, walk back, retrace your steps, and don't use movement spells."
+"Getting in the slums after /kill while unable to break the door with the cannon again in Dwarves and Doguns Part II
+",92,Dwarves and Doguns Part II,8,,Not a Bug,"There's an entrance at [1089, 21, -5034]."
+Explosive disappeared in Fantastic Voyage,90,Fantastic Voyage,19,,Not a Bug,A button should be nearby. Press it.
+I have all the items but crafting doesn't work in Fantastic Voyage,90,Fantastic Voyage,18,,Not a Bug,"Are you sure you have Black Powder instead of Rock Dust? If it still fails, try clicking at different angles with a bare hand."
+"""It seems rude to just barge into somebody's house like that""",70,Shattered Minds,8,,Fixed,This isn't a bug (It happens when you don't bring the bluecap mushrooms with you) but the quest got changed in 1.20 so this situation doesn't exist anymore.
+Accidentally leaving the house at the end of One Thousand Meters Under,95,One Thousand Meters Under,19,,???,"Redoing the quest works as far as I know, but that's very unfortunate."

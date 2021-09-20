@@ -2,36 +2,13 @@
 <html lang="en">
 
 
-    <style>
-            #search-demo-container {
-                max-width: 40em;
-                padding: 1em;
-                margin: 1em auto;
-                border: 1px solid lightgrey;
-            }
-            #search-input {
-                display: inline-block;
-                padding: .5em;
-                width: 100%;
-                font-size: 0.8em;
-                -webkit-box-sizing: border-box;
-                -moz-box-sizing: border-box;
-                box-sizing: border-box;
-            }
-    </style>
+    {% include head.html %} 
     
-    {% include head.html %}
-
     
 
     <body>
 
         {% include header.html %}
-
-        <div id="search-demo-container">
-            <input type="search" id="search-input" placeholder="search...">
-            <ul id="results-container"></ul>
-        </div>
 
         <div class="page-content">
             <div class="wrapper">
@@ -40,21 +17,6 @@
         </div>
 
         {% include footer.html %}
-
-        <script src="{{ site.baseurl }}/js/simple-jekyll-search.js"></script>
-
-        <script>
-            window.simpleJekyllSearch = new SimpleJekyllSearch({
-                searchInput: document.getElementById('search-input'),
-                resultsContainer: document.getElementById('results-container'),
-                json: '{{ site.baseurl }}/search.json',
-                searchResultTemplate: '<li><a href="{url}?query={query}" title="{desc}">{title}</a></li>',
-                noResultsText: 'No results found',
-                limit: 10,
-                fuzzy: false,
-                exclude: ['Welcome']
-            })
-        </script>
 
     </body>
 
