@@ -4,5 +4,5 @@
 $content-width: 90%;
 
 @import
-  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/skins/{{ site.minima.skin | default: 'dark.scss' }}",
   "minima/initialize";
