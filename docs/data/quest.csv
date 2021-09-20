@@ -9,4 +9,12 @@ Captured Gert in The Hunger of Gerts Part 2 doesn't let you leave,78,The Hunger 
 Explosive disappeared in Fantastic Voyage,90,Fantastic Voyage,19,,Not a Bug,A button should be nearby. Press it.
 I have all the items but crafting doesn't work in Fantastic Voyage,90,Fantastic Voyage,18,,Not a Bug,"Are you sure you have Black Powder instead of Rock Dust? If it still fails, try clicking at different angles with a bare hand."
 """It seems rude to just barge into somebody's house like that""",70,Shattered Minds,8,,Fixed,This isn't a bug (It happens when you don't bring the bluecap mushrooms with you) but the quest got changed in 1.20 so this situation doesn't exist anymore.
-Accidentally leaving the house at the end of One Thousand Meters Under,95,One Thousand Meters Under,19,,???,"Redoing the quest works as far as I know, but that's very unfortunate."
+Accidentally leaving the house at the end of One Thousand Meters Under,95,One Thousand Meters Under,19,,Pain,"Redoing the quest works as far as I know, but that's very unfortunate."
+"Can't enter creeper hideout for Temple of the Legends, even with mask",68,Temple of the Legends,11,,Not a Bug,Don't shift click the mask on. Put it in your helmet slot. 
+"Can't enter creeper hideout for Creeper Infiltration, even with mask",15,Creeper Infiltration,5,,Not a Bug,Don't shift click the mask on. Put it in your helmet slot. 
+Getting into the representative's office in Fallen Delivery,79,Fallen Delivery,7,,Not a Bug,"Make sure your quest book updates when going in the bookcase. The trigger isn't consistent, so you may have to try more than once."
+Which bridge in Recover the Past?,25,Recover the Past,3,,Not a Bug,It's the bridge north of Elkurn that connects to the Roots of Corruption.
+Icicle won't break for water to flow,25,Recover the Past,12,,Not a Bug,"Try /class, swapping worlds, and make sure you talk to Farmer Edwin!"
+Colossal Rat gets stuck in ceiling ,28,Misadventure on the Sea,6,,Not a Bug,Don't use uppercut/arrow shield/stuff that sends upward.
+Can't complete Jungle Fever/Lost the Liquified Emeralds,52,Jungle Fever,6,,Not a Bug,"You need to give Worid all of the fake LE. It's not usable as currency. If you manage to lose some, you'll have to delete them and use /fixquests to get the whole stack back. Don't right click while holding the fake Liquified Emeralds."
+NPC doesn't want to talk to you/is missing,,,,,,"Search the question for your specific quest. Check if you missed a trigger. If there's nothing, try /class, swapping worlds, relogging, and/or doing /kill with 6+ soul points."
