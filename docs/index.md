@@ -2,15 +2,20 @@
 layout: default
 ---
 
+<h1 class="page-heading">Quest Issue List</h1>
+
+<p>Have a question? Something missing? Contact Saya#8503 on Discord.</p>
+
 <div id="table-container"></div>
 
 
 
 <br>
 
+<!-- Soon:tm:
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="post-list-heading">Posts</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
@@ -24,6 +29,7 @@ layout: default
     {% endfor %}
   </ul>
 </div>
+-->
 
 
 <script src="js/jquery-3.6.0.min.js"></script>
