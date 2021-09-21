@@ -37,6 +37,9 @@ header_pages:
  - about.md
  - changelog.md
 
+# Google Analytics
+google_analytics: G-WGLFZK5Q3F
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
