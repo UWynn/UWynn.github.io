@@ -9,6 +9,7 @@ permalink: /changelog/
 - rearranged homepage to be smaller cards
 - updated readme
 - set up webhook to [UWynn discord](https://discord.gg/qMZEmqm7Zh)
+- Swapped bootstrap and jquery links to CDN
 
 ## 2021/9/20 night
 - Split it into pages!!
