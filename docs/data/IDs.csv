@@ -42,8 +42,8 @@ Air Defence %,,ID,%,Affects Air Defense by a percentage,
 Health Regen %,,ID,%,Affects Health Regen Raw by a percentage,
 Health Regen,"Health Regen Raw, raw HPR, HPR ",ID,Raw,You regain health. Ticks every 4 seconds.,
 Mana Regen,mr,,,You regain mana. Ticks every 5 seconds.,
-Mana Steal,ms,ID,Raw,"Chance to get that much mana on melee hit (or quake, or chain, or courage's miniquake). The chance is based on final attack speed and is supposed to even out so that you average 1 proc per 3 seconds. Hitting multiple mobs will roll procs per mob, allowing you to get multiple activations. Check Additional Info.",soon
-Life Steal,ls,ID,Raw,"Chance to get that much health on melee hit (or quake, or chain, or courage's miniquake). The chance is based on final attack speed and is supposed to even out so that you average 1 proc per 3 seconds. Hitting multiple mobs will roll procs per mob, allowing you to get multiple activations. Check Additional Info.",soon
+Mana Steal,ms,ID,Raw,"Chance to get that much mana on melee hit, quake, or chain, or courage's miniquake. The chance is based on final attack speed and is supposed to even out so that you average 1 proc per 3 seconds. Hitting multiple mobs will roll procs per mob, allowing you to get multiple activations. Check Additional Info.",soon
+Life Steal,ls,ID,Raw,"Chance to get that much health on melee hit, quake, or chain, or courage's miniquake. The chance is based on final attack speed and is supposed to even out so that you average 1 proc per 3 seconds. Hitting multiple mobs will roll procs per mob, allowing you to get multiple activations. Check Additional Info.",soon
 Thorns %,,ID,%,"Chance for Thorns to activate. Doesn't have an effect past 100%. Thorns reflects damage back when hit by a mob melee attack, but you still take the damage. That damage is damage is postmitigation and has a multiplier of 150% for PvE and 50% for PvP. The damage is true damage, but doesn't activate poison. Check Additional Info.",soon
 Reflection %,,ID,%,"Chance for Reflection to activate. Doesn't have an effect past 100%. Reflection reflects damage back when hit by a mob ranged attack or spell, but you still take the damage. That damage is postmitigation and has a multiplier of 150% for PvE and 50% for PvP. The damage is true damage, but doesn't activate poison. Check Additional Info.",soon
 Exploding %,,ID,%,Chance for mob to explode on death. The exploding does damage equivalent to a single melee hit. Exploding spreads poison but can't be activated by poison.,
@@ -76,10 +76,10 @@ Sorcery,,Major ID,,"30% chance for spells, melees, and powder specials to recast
 Taunt,,Major ID,,Makes mobs within 12 blocks target you upon war scream.,
 Transcendence,,Major ID,,"50% chance for spells to cost 0 mana.",
 Cherry Bombs,,Major ID,,"Smoke Bombs become an instant damage spell, each bomb having 110% spell multiplier.",
-Explosive Impact,,Major ID,,Exploding can trigger on hit. Full damage with melee hits but 10% with spells. The explosion won't hit the mob that triggers explosive impact.,
+Explosive Impact,,Major ID,,Exploding can trigger on hit. The explosion won't hit the mob that triggers explosive impact.,
 Fission,,Major ID,,Explosions from Exploding are double size and double damage,
-Flashfreeze,,Major ID,,Ice Snake becomes instant but has less range,
-Freerunner,,Major ID,,2x sprint speed when sprint bar <30%,
+Flashfreeze,,Major ID,,Ice Snake becomes instant but has less range. It also freezes mobs for longer.,
+Freerunner,,Major ID,,2x sprint speed when sprint bar <30%. It can't be used to exceed the 400% walkspeed cap.,
 Furious Effigy,,Major ID,,"Totem damage and heal tick 2x faster, but totem duration is halved",
 Peaceful Effigy,,Major ID,,2x totem duration,
 Rally,,Major ID,,"Charge does no damage but heals on impact (15% to others, 7% to you)",
