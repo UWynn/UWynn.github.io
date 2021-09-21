@@ -11,6 +11,7 @@ permalink: /changelog/
 - set up webhook to [UWynn discord](https://discord.gg/qMZEmqm7Zh)
 - Swapped bootstrap and jquery links to CDN
 - rally fix (thanks kio)
+- A ton of fixes (thanks ingo)
 
 ## 2021/9/20 night
 - Split it into pages!!

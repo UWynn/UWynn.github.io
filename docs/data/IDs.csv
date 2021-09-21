@@ -44,8 +44,8 @@ Health Regen,"Health Regen Raw, raw HPR, HPR ",ID,Raw,You regain health. Ticks e
 Mana Regen,mr,,,You regain mana. Ticks every 5 seconds.,
 Mana Steal,ms,ID,Raw,"Chance to get that much mana on melee hit (or quake, or chain, or courage's miniquake). The chance is based on final attack speed and is supposed to even out so that you average 1 proc per 3 seconds. Hitting multiple mobs will roll procs per mob, allowing you to get multiple activations. Check Additional Info.",soon
 Life Steal,ls,ID,Raw,"Chance to get that much health on melee hit (or quake, or chain, or courage's miniquake). The chance is based on final attack speed and is supposed to even out so that you average 1 proc per 3 seconds. Hitting multiple mobs will roll procs per mob, allowing you to get multiple activations. Check Additional Info.",soon
-Thorns %,,ID,%,"Chance for Thorns to activate. Doesn't have an effect past 100%. Thorns reflects damage back when hit by a mob melee attack, but you still take the damage. That damage is damage is postmitigation and has a multiplier of 150% for PvE and 50% for PvP. The damage activates poison and is true damage. Check Additional Info.",soon
-Reflection %,,ID,%,"Chance for Reflection to activate. Doesn't have an effect past 100%. Reflection reflects damage back when hit by a mob ranged attack or spell, but you still take the damage. That damage is postmitigation and has a multiplier of 150% for PvE and 50% for PvP. The damage activates poison and is true damage. Check Additional Info.",soon
+Thorns %,,ID,%,"Chance for Thorns to activate. Doesn't have an effect past 100%. Thorns reflects damage back when hit by a mob melee attack, but you still take the damage. That damage is damage is postmitigation and has a multiplier of 150% for PvE and 50% for PvP. The damage is true damage, but doesn't activate poison. Check Additional Info.",soon
+Reflection %,,ID,%,"Chance for Reflection to activate. Doesn't have an effect past 100%. Reflection reflects damage back when hit by a mob ranged attack or spell, but you still take the damage. That damage is postmitigation and has a multiplier of 150% for PvE and 50% for PvP. The damage is true damage, but doesn't activate poison. Check Additional Info.",soon
 Exploding %,,ID,%,Chance for mob to explode on death. The exploding does damage equivalent to a single melee hit. Exploding spreads poison but can't be activated by poison.,
 Jump Height,jh,ID,Raw,"Directly equivalent to minecraft Jump Height potion effect, 1 jh = 1 potion level. Negatives are equivalent to zero.",
 Walk Speed %,ws,ID,%,Affects walk speed (blocks/sec) as a direct multiplier.,
@@ -53,17 +53,17 @@ Sprint %,"sprint bonus, sprint duration",ID,%,Affects sprint bar endurance. -100
 Sprint Regen %,,ID,%,Affects sprint bar regen rate. ,
 Spell Cost %,,ID,%,"Affects spell cost. Happens after int and Spell Cost (Raw) are factored in, and the result is rounded down. Check Additional Info.",soon
 Spell Cost,spell cost raw,ID,Raw,Affects spell cost. Happens after int is factored in (spell cost is rounded up after int). Check Additional Info.,soon
-Xp Bonus %,"xp bonus, xpb",ID,%,"Affects combat xp gain. Does not modify quest or discovery xp, but works with mobs, dungeons, etc.",
+Xp Bonus %,"xp bonus, xpb",ID,%,"Affects combat xp gain. Does not modify fixed xp gain (quest, discovery, LI, raid), but works with mobs, dungeons, etc.",
 Gather XP Bonus %,gxp,ID,%,Affects gathering xp gain.,
 Gather Speed %,gspeed,ID,%,"Affects gathering speed. Since gathering in practice is by hit count, gspeed is threshold based.",
 Stealing %,,ID,%,Chance to make a mob drop an emerald on hit (poison counts). There's a cooldown between drops based on final attack speed. Also serves as loot bonus for pots.,
 Loot Bonus %,lb,ID,%,"Affects the amount of loot. LB on chests scales and has a softcap at 80%, with 1% LB above 80% being equal to .2% effective LB. There's no softcap or scaling on mobs. Check Additional Info for the scaling formula and more.",soon
 Loot Quality %,lq,ID,%,"Affects the chance for higher rarity loot. LQ on chests scales and has a softcap at 40%, with 1% LQ above 40% being equal to .1% LQ. There's no softcap or scaling on mobs, and for ingredient drops, LQ works identically to LB. Check Additional Info for the scaling formula and more.",soon
-Soul Point Regen %,spr,ID,%,"Chance to get 2 (or 0, if negative) soul points instead of 1 at sunrise. SPR past 100% doesn't do anything.",
+Soul Point Regen %,spr,ID,%,"Chance to get 2 soul points instead of 1 at sunrise. SPR past 100% doesn't do anything, and negative doesn't do anything.",
 Cavalryman,,Major ID,,"You can attack while on a horse (or boat), with a -70% spell/melee (ID) penalty.",
 Entropy,,Major ID,,Meteor falls 3x faster (meteor fall time is normally .8s),
 Greed,,Major ID,,Picking up an emerald dropped from a mob (stealing works too) heals you and nearby allies for 15% max hp. Has a cooldown of ~2 seconds. The player dropping emeralds on the floor won't work for this.,
-Guardian,,Major ID,,Redirect 50% of nearby ally damage. The damage you take is after mitigation from both the person who got hit and your own defensive sp.,
+Guardian,,Major ID,,Redirect 50% of nearby ally damage. The damage you take is after mitigation from both the person who got hit and your own defensive sp. Doesn't work on true damage.,
 Hawkeye,,Major ID,,"Arrow Storm changes to 5 arrows in a straight line, 80% spell mult each.",
 Heart of the Pack,,Major ID,,Nearby allies get 35% of your hpr,
 Lightweight,,Major ID,,Prevents you from recieving fall damage.,
@@ -71,10 +71,10 @@ Madness,,Major ID,,"Every 3 seconds, a random spell/powder special/melee attack 
 Magnet,,Major ID,,Mob drops within 8 blocks get pulled to you.,
 Plague,,Major ID,,"Having an active poison tick on a mob gives you an AoE that inflicts mobs within 8 blocks with poison. Yep, it's different from the description.",
 Roving Assassin,,Major ID,,Vanish's mana drain is no more. ,
-Saviour's Sacrifice,,Major ID,,"When <50% hp, you and nearby allies get +30% damage and resistance. Potion effect.",
+Saviour's Sacrifice,,Major ID,,"When <50% hp, you and allies within 8 blocks get +30% damage and resistance. Potion effect.",
 Sorcery,,Major ID,,"30% chance for spells, melees, and powder specials to recast after 2 seconds with no mana cost. Recasts can be recasted. Madness is affected.",
 Taunt,,Major ID,,Makes mobs within 12 blocks target you upon war scream.,
-Transcendence,,Major ID,,"50% chance for spells to cost 0 mana. This isn't free, repeat spellcost penalty still applies.",
+Transcendence,,Major ID,,"50% chance for spells to cost 0 mana.",
 Cherry Bombs,,Major ID,,"Smoke Bombs become an instant damage spell, each bomb having 110% spell multiplier.",
 Explosive Impact,,Major ID,,Exploding can trigger on hit. Full damage with melee hits but 10% with spells. The explosion won't hit the mob that triggers explosive impact.,
 Fission,,Major ID,,Explosions from Exploding are double size and double damage,
