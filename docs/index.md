@@ -33,7 +33,7 @@ layout: default
       <div class="card-body d-flex flex-column">
         <h5 class="card-title">Mana Tables</h5>
         <p class="card-text">Spellcosts with int values for each class. Get the right thresholds!</p>
-        <a href="/ID/" class="btn btn-outline-light text-light mt-auto">Go</a>
+        <a href="/mana/" class="btn btn-outline-light text-light mt-auto">Go</a>
       </div>
     </div>
   </div>
