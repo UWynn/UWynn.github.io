@@ -8,6 +8,7 @@ permalink: /changelog/
 - Mana tables fully added!
 - rearranged homepage to be smaller cards
 - updated readme
+- set up webhook to [UWynn discord](https://discord.gg/qMZEmqm7Zh)
 
 ## 2021/9/20 night
 - Split it into pages!!
