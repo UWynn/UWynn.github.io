@@ -13,3 +13,7 @@ After wasting hours in #questions, I realized that searching up past answers was
 I guess I can plug my stuff so here, [educational wynncraft content](https://www.youtube.com/c/SayaDuck).
 
 
+
+If you want to talk about/help UWynn, [here's the discord](https://discord.gg/qMZEmqm7Zh).
+
+
