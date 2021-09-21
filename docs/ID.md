@@ -27,6 +27,7 @@ order: 3
       datatables_options: {
         "paging": false, 
         "autoWidth": false,
+        "order": [],
         "columns": [
           { "width": "20%" }, // name
           { "width": "13%" }, // alias
