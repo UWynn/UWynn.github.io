@@ -5,6 +5,8 @@ permalink: /changelog/
 ---
 ## 2021/9/21 morning
 - bart assisted id edits
+- Mana tables fully added!
+- rearranged homepage to be smaller cards
 
 ## 2021/9/20 night
 - Split it into pages!!
