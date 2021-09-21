@@ -4,12 +4,13 @@ title: Changelog
 permalink: /changelog/
 ---
 ## 2021/9/21 morning
-- bart assisted id edits
+- bart assisted id edits (thanks bart)
 - Mana tables fully added!
 - rearranged homepage to be smaller cards
 - updated readme
 - set up webhook to [UWynn discord](https://discord.gg/qMZEmqm7Zh)
 - Swapped bootstrap and jquery links to CDN
+- rally fix (thanks kio)
 
 ## 2021/9/20 night
 - Split it into pages!!
