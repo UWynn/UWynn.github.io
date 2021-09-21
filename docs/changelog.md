@@ -4,6 +4,9 @@ title: Changelog
 permalink: /changelog/
 order: 1
 ---
+## 2021/9/21 morning
+- bart assisted id edits
+
 ## 2021/9/20 night
 - Split it into pages!!
 - IDs section (need to resolve the "soon"s though)
