@@ -26,7 +26,6 @@ order: 3
       csv_options: {separator: ',', delimiter: '"'},
       datatables_options: {
         "paging": false, 
-        "order": [[1,'asc']],
         "autoWidth": false,
         "columns": [
           { "width": "20%" }, // name
