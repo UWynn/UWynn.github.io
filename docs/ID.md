@@ -2,7 +2,6 @@
 layout: page
 title: IDs
 permalink: /ID/
-order: 3
 ---
 
 <p>Have a question? Something missing? Contact Saya#8503 on Discord or leave a post on the <a href="https://forums.wynncraft.com/threads/uwynn-release-thread.295591/">release thread</a>.</p>

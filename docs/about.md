@@ -2,7 +2,6 @@
 layout: page
 title: About
 permalink: /about/
-order: 0
 ---
 
 Yoooo hello it's me saya duck
