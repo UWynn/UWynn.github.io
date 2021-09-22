@@ -5,10 +5,10 @@ permalink: /changelog/
 ---
 
 ## 2021/9/21 night
-- search bar alignment (bottom of generated-style.css)
+- search bar alignment fixed (bottom of generated-style.css)
 - guide box to homepage
-- class building vocab page
-- guide page
+- class building vocab page fully complete in one sitting!
+- guide page still wip (tomorrow)
 
 ## 2021/9/21 morning
 - bart assisted id edits (thanks bart)
