@@ -3,6 +3,7 @@ layout: page
 title: Class Building Vocabulary
 permalink: /cbvocab/
 ---
+<p>Have a question? Something missing? Contact Saya#8503 on Discord or leave a post on the <a href="https://forums.wynncraft.com/threads/uwynn-release-thread.295591/">release thread</a>.</p>
 <div id="table-container" class="table-dark"></div>
 
 

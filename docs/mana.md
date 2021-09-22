@@ -4,7 +4,6 @@ title: Mana
 permalink: /mana/
 ---
 <p>Wynncraft mana tables.</p>
-
 <div class="container">
     <div class="row">
         <div class="col-sm">

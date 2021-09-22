@@ -3,10 +3,7 @@ layout: page
 title: Guides
 permalink: /guides/
 ---
-
-<p>Yep, another table. I'm addicted.</p>
-
-
+<p>Soon.</p>
 <div id="table-container" class="table-dark"></div>
 
 
@@ -38,8 +35,8 @@ permalink: /guides/
           { "width": "20%" }, // category
           { "width": "30%" }, // author
           { "width": "10%" }, // link
-        ],
-        custom_formatting: [[3, format_link]]
-      }
+        ]
+      },
+      custom_formatting: [[3, format_link]]
     });
 </script>

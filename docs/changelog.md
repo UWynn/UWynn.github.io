@@ -7,9 +7,8 @@ permalink: /changelog/
 ## 2021/9/21 night
 - search bar alignment (bottom of generated-style.css)
 - guide box to homepage
-- guide page
-- the first few guides
 - class building vocab page
+- guide page
 
 ## 2021/9/21 morning
 - bart assisted id edits (thanks bart)
