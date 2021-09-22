@@ -49,7 +49,7 @@ layout: default
       </div>
       <div class="card-body d-flex flex-column">
         <h5 class="card-title">Class Builds Dictionary</h5>
-        <p class="card-text">It's (yet another) table, this time for class build vocabulary.</p>
+        <p class="card-text">It's a(nother) table, this time for class build vocabulary.</p>
         <a href="/cbvocab/" class="btn btn-outline-light text-light mt-auto">cbvocab</a>
       </div>
     </div>
