@@ -1,13 +1,9 @@
 ---
 layout: page
-title: IDs
-permalink: /ID/
+title: Class Building Vocabulary
+permalink: /cbvocab/
 ---
-
-<p>Have a question? Something missing? Contact Saya#8503 on Discord or leave a post on the <a href="https://forums.wynncraft.com/threads/uwynn-release-thread.295591/">release thread</a>.</p>
-
 <div id="table-container" class="table-dark"></div>
-
 
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -18,22 +14,18 @@ permalink: /ID/
 <script src="/js/csv_to_html_table.js"></script>
 <script>
     CsvToHtmlTable.init({
-      csv_path: '/data/IDs.csv', 
+      csv_path: '/data/cbvocab.csv', 
       element: 'table-container', 
       allow_download: false,
       csv_options: {separator: ',', delimiter: '"'},
       datatables_options: {
         "paging": false, 
         "autoWidth": false,
-        "order": [],
+        "order": [[1,'desc']],
         "columns": [
-          { "width": "20%" }, // name
-          { "width": "13%" }, // alias
-          { "width": "7%" }, // type
-          { "width": "5%" }, // raw or %
-          { "width": "40%" }, // effect
-          { "width": "15%" } // additional
-
+          { "width": "30%" }, // term
+          { "width": "20%" }, // category
+          { "width": "50%" } // definition
         ]
       }
     });

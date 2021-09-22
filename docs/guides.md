@@ -1,10 +1,11 @@
 ---
 layout: page
-title: IDs
-permalink: /ID/
+title: Guides
+permalink: /guides/
 ---
 
-<p>Have a question? Something missing? Contact Saya#8503 on Discord or leave a post on the <a href="https://forums.wynncraft.com/threads/uwynn-release-thread.295591/">release thread</a>.</p>
+<p>Yep, another table. I'm addicted.</p>
+
 
 <div id="table-container" class="table-dark"></div>
 
@@ -17,8 +18,14 @@ permalink: /ID/
 <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
 <script src="/js/csv_to_html_table.js"></script>
 <script>
+    function linking(link){
+    if (link)
+      return "<a href='" + link + "' target='_blank'>Link</a>";
+    else
+      return "";
+    }
     CsvToHtmlTable.init({
-      csv_path: '/data/IDs.csv', 
+      csv_path: '/data/guides.csv', 
       element: 'table-container', 
       allow_download: false,
       csv_options: {separator: ',', delimiter: '"'},
@@ -27,14 +34,12 @@ permalink: /ID/
         "autoWidth": false,
         "order": [],
         "columns": [
-          { "width": "20%" }, // name
-          { "width": "13%" }, // alias
-          { "width": "7%" }, // type
-          { "width": "5%" }, // raw or %
-          { "width": "40%" }, // effect
-          { "width": "15%" } // additional
-
-        ]
+          { "width": "40%" }, // name
+          { "width": "20%" }, // category
+          { "width": "30%" }, // author
+          { "width": "10%" }, // link
+        ],
+        custom_formatting: [[3, format_link]]
       }
     });
 </script>

@@ -1,0 +1,56 @@
+Term,Category,Definition
+melee,Vocabulary,"Hitting things with your weapon. Also known as Main Attack, Basic Attack, or Auto Attack."
+spell,Vocabulary,Each class has four of these. Spells themselves and builds focused on them.
+mr,Vocabulary,Mana Regen.
+ms,Vocabulary,"Mana Steal."
+mixed mana,Vocabulary,"Both ms and mr in significant quantities."
+hpr,Vocabulary,"Health (Point) Regen."
+ls,Vocabulary,Life Steal.
+ws,Vocabulary,"Walk Speed."
+jh,Vocabulary,"Jump Height."
+sp,Vocabulary,Can mean either Skill Points or Soul Points. Mind the context!
+spr,Vocabulary,"Soul Point Regen."
+reqs,Vocabulary,"Requirements. (skill point requirements)"
+"raw (melee, spell, hpr)",Vocabulary,"Just the non-% version of the stats. Neutral melee, neutral spell, numerical hpr."
+sd,Vocabulary,"Short for Spell Damage."
+sustain,Vocabulary,"Some form of recovery. HPR/LS for health, MR/MS for mana."
+ehp,Vocabulary,"Effective HP, your total bulk considering defensive skillpoints."
+els,Vocabulary,Effective lifesteal.
+ehpr,Vocabulary,Effective health regen.
+ETWFA and other letter combinations,Vocabulary,"Combinations of skillpoints/elements in a build or item. EWA = Earth/Water/Air, etc.
+Please stick to ETWFA order, it's the standard because it's the same order as the skillpoint menu.
+If some letters are lowercase and some uppercase, it usually means the uppercase letters are more emphasized. This is seen in quads where the only component that makes it a quad is one item with a smallish req, like eTWF being used for builds where it's TWF + draoi fair (strength requirement)"
+mono/duo/tri/quad/penta,Vocabulary,"1/2/3/4/5 element combos.
+Big distinction between Penta and Rainbow: Penta uses no rainbow items, so it's a build that has all skillpoint reqs but no items that require all skillpoints.
+Do NOT assume that multi-element combos have to do multi-element damage."
+rainbow,Vocabulary,"Weapons with all the elements.
+Items with requirements in every skillpoint.
+Builds utilizing them."
+powder special,Vocabulary,The ability unlocked by putting two t4+ powders on an item.
+spell spam/spellspam,Build Types,As much mana regen and intelligence as possible to... spam spells.
+glass cannon,Build Types,"ETW builds naturally become glass cannon builds, since they're purely offensive elements.
+It can also be used to describe building while ignoring bulk."
+rawstack,Build Types,raw melee + super fast weapon.
+tierstack (tstack),Build Types,super slow big damage weapon + attack speed = super fast big damage weapon :)
+heavy melee (hm),Build Types,"Negative attack speed can only make you go down to Super Slow, so you can stack -attack speed items that give you lots of raw melee damage and do massive damage with the Earth powder special Quake.
+Benefits greatly from Assassin's vanish boost."
+cancelstack (cstack),Build Types,"Heavy melee items (lots of -tier, lots of raw damage) with tierstack items (+tier) and a super fast weapon to do big damage."
+hybrid,Build Types,"Any build that uses both spell and melee. The melee aspect can be for damage or for mana steal.
+It's a pretty wide category that includes some of the ones below:"
+true hybrid,Build Types,"A type of hybrid.
+Having good spell and melee damage.
+The term ""True Hybrid"" is being used less and less as the blanket term ""Hybrid"" or the more specific ""Heavy Hybrid""/""Fast Hybrid"" are used instead for having both damages."
+spell steal/spellsteal,Build Types,"A type of hybrid.
+Mana Steal-based spell. Often uses -tier items for better mana steal chance per hit and more time to weave in spells between melees."
+fast hybrid,Build Types,"A type of hybrid.
+Having both spell and melee damage with faster attack speeds (usually super fast). Your CPS and input accuracy have to be really high to play fast hybrid to its full potential."
+heavy hybrid,Build Types,"A type of hybrid.
+Having both spell and melee damage with slower attack speeds (usually super slow). Similar to Spell Steal, but with significant melee damage."
+void,Build Types,Not a build type. Revamp name of EWA. (please don't use revamp names)
+0 int spell/intless spell,Build Types,Uses -spellcost items to have low cost spells without any intelligence. Also called TFA spell or variants of it.
+heavy poison,Build Types,Super slow poison (concept is slow spreading high damage) or something like that.
+heavy spell,Build Types,"Doesn't truly exist, at least right now.
+Would probably be spellcost increases paired with high spell damage."
+base damage,Analytical Terms,The damage listed on a weapon.
+"base dps (what's usually called ""base"")",Analytical Terms,DPS of a weapon (factoring in attack speed). What spell calculations are based on.
+postpowder base,Analytical Terms,base after powders.

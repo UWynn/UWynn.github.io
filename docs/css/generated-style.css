@@ -227,3 +227,10 @@ table td { border: 1px solid #404040; }
 
 /** Grid helpers */
 @media screen and (min-width: 800px) { .one-half { width: calc(50% - (30px / 2)); } }
+
+
+/** added manually to fix search bar alignment */
+.dataTables_filter {
+  float: right !important;
+  padding-bottom: 6px;
+}

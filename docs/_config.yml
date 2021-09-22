@@ -32,9 +32,7 @@ minima:
 plugins:
   - jekyll-feed
 header_pages:
- - quest.md
- - ID.md
- - mana.md
+ - guides.md
  - about.md
  - changelog.md
 
