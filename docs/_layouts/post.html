@@ -5,7 +5,26 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}
+      {% assign authorCount = page.authors | size %}
+      {% if authorCount == 0 %}
+        No author
+      {% else %}
+        {% for author in page.authors %}
+            {% if forloop.first %}
+              {% assign a = site.authors | where: 'short_name', author | first %}
+              {% if a %}
+                <a href="{{ a.url }}">{{ a.name }}</a>
+              {% endif %}
+            {% else %}
+              {% assign a = site.authors | where: 'short_name', author | first %}
+              {% if a %}
+                , <a href="{{ a.url }}">{{ a.name }}</a>
+              {% endif %}
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+      </p>
   </header>
 
   <article class="post-content">

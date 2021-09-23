@@ -1,6 +1,6 @@
 ---
 short_name: sayaduck
 name: SayaDuck
-position: Editor
+position: Maintainer
 ---
-Saya Duckers. Yep.
+saya duckers
