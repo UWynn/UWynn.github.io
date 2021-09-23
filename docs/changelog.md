@@ -4,7 +4,7 @@ title: Changelog
 permalink: /changelog/
 ---
 ## 2021/9/23
-- Powder page done??
+- Powder page done?? (small intro fix thanks linnyflower
 
 ## 2021/9/22
 - started doing author system for pages
