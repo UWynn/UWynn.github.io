@@ -31,6 +31,8 @@ minima:
   skin: dark
 plugins:
   - jekyll-feed
+collections:
+  authors:
 header_pages:
  - guides.md
  - about.md

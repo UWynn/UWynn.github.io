@@ -37,6 +37,6 @@ permalink: /guides/
           { "width": "10%" }, // link
         ]
       },
-      custom_formatting: [[3, format_link]]
+      custom_formatting: [[3, linking]]
     });
 </script>

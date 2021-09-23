@@ -3,6 +3,9 @@ layout: page
 title: Changelog
 permalink: /changelog/
 ---
+## 2021/9/22
+- started doing author system for pages
+- slept earlier for once
 
 ## 2021/9/21 night
 - search bar alignment fixed (bottom of generated-style.css)

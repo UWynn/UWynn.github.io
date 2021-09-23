@@ -57,12 +57,10 @@ layout: default
 </div>
 
 
+<!--
+<div class="home container justify-content-center">
 
-
-<!-- Soon:tm:
-<div class="home">
-
-  <h1 class="post-list-heading">Posts</h1>
+  <h1 class="post-list-heading">Latest</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
@@ -77,4 +75,3 @@ layout: default
   </ul>
 </div>
 -->
-
