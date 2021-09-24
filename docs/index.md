@@ -7,7 +7,7 @@ layout: default
       <h5 class="card-header"></h5>
       <div class="card-body">
         <h5 class="card-title">Guides</h5>
-        <p class="card-text">Concepts explained and insights ascertained by the brightest minds of Wynn.</p>
+        <p class="card-text">Stuff gets explained.</p>
         <a href="/guides/" class="btn btn-outline-light text-light mt-auto">guides</a>
       </div>
     </div>
@@ -25,7 +25,7 @@ layout: default
     </div>
     <div class="card text-white bg-dark mb-3 me-3 col-sm-6" style="width: 18rem;">
       <div class="card-header">
-        Don't know what a stat does?
+        Want to know more about IDs?
       </div>
       <div class="card-body d-flex flex-column">
         <h5 class="card-title">ID list</h5>
