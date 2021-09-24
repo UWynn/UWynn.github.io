@@ -30,7 +30,7 @@ Air Damage %,,ID,%,Affects Air Damage by a percentage,
 Main Attack Damage %,Melee%,ID,%,Affects the damage of Main Attacks by a percentage,
 Main Attack Damage Raw,Raw Melee,ID,Raw,Adds a flat amount to the damage of Main Attacks.,
 Spell Damage %,,ID,%,Affects the damage of spells by a percentage,
-Spell Damage Raw,Raw Spell,ID,Raw,Adds a flat amount to the damage of spells. Affected by spell multiplier.,
+Neutral Spell Damage,Raw Spell,ID,Raw,Adds a flat amount to the damage of spells. Affected by spell multiplier.,
 Attack Speed Bonus,"tier, attack speed, attack tier",ID,Raw,Increases or decreases attack speed. Cannot exceed Super Fast or go below Super Slow. Check Additional Info.,soon
 Poison,,ID,Raw,"Deals a third of the listed damage per tick as true damage, with three ticks spread across three seconds. Do note the first tick takes 1.25 seconds. Check Additional Info.",soon
 Health,"Bonus HP, Health Bonus, HP ID",ID,Raw,Increases Max Health by a fixed amount.,
