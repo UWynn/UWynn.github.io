@@ -28,7 +28,7 @@ Water Damage %,,ID,%,Affects Water Damage by a percentage,
 Fire Damage %,,ID,%,Affects Fire Damage by a percentage,
 Air Damage %,,ID,%,Affects Air Damage by a percentage,
 Main Attack Damage %,Melee%,ID,%,Affects the damage of Main Attacks by a percentage,
-Main Attack Damage Raw,Raw Melee,ID,Raw,Adds a flat amount to the damage of Main Attacks.,
+Main Attack Neutral Damage,Raw Melee,ID,Raw,Adds a flat amount to the damage of Main Attacks.,
 Spell Damage %,,ID,%,Affects the damage of spells by a percentage,
 Neutral Spell Damage,Raw Spell,ID,Raw,Adds a flat amount to the damage of spells. Affected by spell multiplier.,
 Attack Speed Bonus,"tier, attack speed, attack tier",ID,Raw,Increases or decreases attack speed. Cannot exceed Super Fast or go below Super Slow. Check Additional Info.,soon
