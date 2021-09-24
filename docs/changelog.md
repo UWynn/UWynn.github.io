@@ -5,7 +5,7 @@ permalink: /changelog/
 ---
 ## 2021/9/23
 - front page phrasing fixed
-
+- Powder guide finished!
 
 ## 2021/9/23
 - Powder page done??
