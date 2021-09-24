@@ -7,7 +7,7 @@ layout: default
       <h5 class="card-header"></h5>
       <div class="card-body">
         <h5 class="card-title">Guides</h5>
-        <p class="card-text">Stuff gets explained.</p>
+        <p class="card-text">Stuff, explained.</p>
         <a href="/guides/" class="btn btn-outline-light text-light mt-auto">guides</a>
       </div>
     </div>
