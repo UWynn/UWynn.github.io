@@ -56,7 +56,7 @@ Spell Cost,spell cost raw,ID,Raw,Affects spell cost. Happens after int is factor
 Xp Bonus %,"xp bonus, xpb",ID,%,"Affects combat xp gain. Does not modify fixed xp gain (quest, discovery, LI, raid), but works with mobs, dungeons, etc.",
 Gather XP Bonus %,gxp,ID,%,Affects gathering xp gain.,
 Gather Speed %,gspeed,ID,%,"Affects gathering speed. Since gathering in practice is by hit count, gspeed is threshold based.",
-Stealing %,,ID,%,Chance to make a mob drop an emerald on hit (poison counts). There's a cooldown between drops based on final attack speed. Also serves as loot bonus for pots.,
+Stealing %,,ID,%,Chance to make a mob drop an emerald on hit (poison counts). There's a cooldown between drops based on final attack speed.,
 Loot Bonus %,lb,ID,%,"Affects the amount of loot. LB on chests scales and has a softcap at 80%, with 1% LB above 80% being equal to .2% effective LB. There's no softcap or scaling on mobs. Check Additional Info for the scaling formula and more.",soon
 Loot Quality %,lq,ID,%,"Affects the chance for higher rarity loot. LQ on chests scales and has a softcap at 40%, with 1% LQ above 40% being equal to .1% LQ. There's no softcap or scaling on mobs, and for ingredient drops, LQ works identically to LB. Check Additional Info for the scaling formula and more.",soon
 Soul Point Regen %,spr,ID,%,"Chance to get 2 soul points instead of 1 at sunrise. SPR past 100% doesn't do anything, and negative doesn't do anything.",
