@@ -5,6 +5,7 @@ permalink: /changelog/
 ---
 ## 2021/9/25
 - Guides page open for business
+- a ton of fixes thanks oinuk
 
 ## 2021/9/24
 - front page phrasing fixed
