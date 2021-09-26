@@ -3,7 +3,6 @@ layout: page
 title: Guides
 permalink: /guides/
 ---
-<p>Soon.</p>
 <div id="table-container" class="table-dark"></div>
 
 

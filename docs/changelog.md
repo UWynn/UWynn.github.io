@@ -3,7 +3,10 @@ layout: page
 title: Changelog
 permalink: /changelog/
 ---
-## 2021/9/23
+## 2021/9/25
+- Guides page open for business
+
+## 2021/9/24
 - front page phrasing fixed
 - Powder guide finished!
 
