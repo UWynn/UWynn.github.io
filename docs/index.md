@@ -25,6 +25,16 @@ layout: default
     </div>
     <div class="card text-white bg-dark mb-3 me-3 col-sm-6" style="width: 18rem;">
       <div class="card-header">
+        Frequently Asked
+      </div>
+      <div class="card-body d-flex flex-column">
+        <h5 class="card-title">FAQ</h5>
+        <p class="card-text">Quick answers to quick questions.</p>
+        <a href="#" class="btn btn-outline-light text-light mt-auto">soon</a>
+      </div>
+    </div>
+    <div class="card text-white bg-dark mb-3 me-3 col-sm-6" style="width: 18rem;">
+      <div class="card-header">
         Want to know more about IDs?
       </div>
       <div class="card-body d-flex flex-column">
@@ -39,7 +49,7 @@ layout: default
       </div>
       <div class="card-body d-flex flex-column">
         <h5 class="card-title">Mana Tables</h5>
-        <p class="card-text">Spellcosts with int values for each class. Get the right thresholds!</p>
+        <p class="card-text">Spellcosts with intelligence skill point thresholds for each class.</p>
         <a href="/mana/" class="btn btn-outline-light text-light mt-auto">mana</a>
       </div>
     </div>

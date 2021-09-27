@@ -3,6 +3,10 @@ layout: page
 title: Changelog
 permalink: /changelog/
 ---
+## 2021/9/26
+- FAQ incoming (card placed)
+- break to work on other things
+
 ## 2021/9/25
 - Guides page open for business
 - a ton of fixes thanks oinuk
