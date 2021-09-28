@@ -3,6 +3,9 @@ layout: page
 title: Changelog
 permalink: /changelog/
 ---
+## 2021/9/27
+- Compiled FAQ stuff (outside of repo)
+
 ## 2021/9/26
 - FAQ incoming (card placed)
 - break to work on other things
