@@ -3,6 +3,10 @@ layout: page
 title: Changelog
 permalink: /changelog/
 ---
+## 2021/10/2
+- Added the two big quest issues (1k meters and dojo)
+- tiny edit to powder to emphasize stackability of curse/courage
+
 ## 2021/9/27
 - Compiled FAQ stuff (outside of repo)
 

@@ -19,3 +19,5 @@ Colossal Rat gets stuck in ceiling ,28,Misadventure on the Sea,6,,Not a Bug,Don'
 Can't complete Jungle Fever/Lost the Liquified Emeralds,52,Jungle Fever,6,,Not a Bug,"You need to give Worid all of the fake LE. It's not usable as currency. If you manage to lose some, you'll have to delete them and use /fixquests to get the whole stack back. Don't right click while holding the fake Liquified Emeralds."
 NPC doesn't want to talk to you/is missing,,,,,,"Search the question for your specific quest. Check if you missed a trigger. If there's nothing, try /class, swapping worlds, relogging, and/or doing /kill with 6+ soul points."
 teleport or trigger not working?,,,,,,"/class and/or relog. If it doesn't work, search your specific quest/issue."
+Enter the Dojo tokens,89,Enter the Dojo,4,,Will be pushed next update,It's broken. The fix is ready and should be pushed next update.
+One Thousand Meters Under submarine ,95,One Thousand Meters Under ,9,,Will be pushed next update,It's broken. The fix is ready and should be pushed next update.
