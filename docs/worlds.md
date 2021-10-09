@@ -17,7 +17,7 @@ permalink: /worlds/
 <script>
   let worldJson;
   async function getWorlds() {
-    let response = await fetch('https://athena.wynntils.com/cache/get/serverList', {mode: "no-cors"});
+    let response = await fetch('https://athena.wynntils.com/cache/get/serverList');
     worldJson = await response.json();
     return worldJson;
   }
