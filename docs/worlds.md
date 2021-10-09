@@ -17,7 +17,13 @@ permalink: /worlds/
 <script>
   let worldJson;
   async function getWorlds() {
-    let response = await fetch('https://athena.wynntils.com/cache/get/serverList');
+    let response = await fetch('https://athena.wynntils.com/cache/get/serverList', {
+        method: 'GET',
+        mode: 'cors',
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    });
     worldJson = await response.json();
     return worldJson;
   }
@@ -39,7 +45,7 @@ permalink: /worlds/
     csvPrep += ',' + String(dateDiff/3600) + ":" + String(dateDiff/60);
     csvPrep += ',' + String(len(i['players'])) + "\r\n";
   }
-  var finalCsv = encodeURI(csvPrep);
+  var finalCsv = encodeURI(csvPrep); // change this clownery to just a js array since datatables has native support for js arrays
   // aaaaaa
   CsvToHtmlTable.init({
     csv_path: finalCsv, 
