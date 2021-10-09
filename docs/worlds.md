@@ -32,7 +32,7 @@ permalink: /worlds/
     });
     */
   let csvPrep = "data:text/csv;charset=utf-8,";
-  csvPrep += "World,Uptime,Player Count\r\n"
+  csvPrep += "World,Uptime,Player Count\r\n";
   for (i in worldJson['servers']) {
     let dateDiff = Date.now() - i['firstSeen'];
     csvPrep += str(i);
