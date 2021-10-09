@@ -17,7 +17,7 @@ permalink: /worlds/
 <script>
   let worldJson;
   async function getWorlds() {
-    let response = await fetch('https://athena.wynntils.com/cache/get/serverList?origin=*');
+    let response = await fetch('https://athena.wynntils.com/cache/get/serverList');
     worldJson = await response.json();
     return worldJson;
   }
@@ -35,11 +35,12 @@ permalink: /worlds/
   csvPrep += "World,Uptime,Player Count\r\n";
   for (i in worldJson['servers']) {
     let dateDiff = Date.now() - i['firstSeen'];
-    csvPrep += str(i);
-    csvPrep += ',' + str(dateDiff/3600) + ":" + str(dateDiff/60);
-    csvPrep += ',' + str(len(i['players'])) + "\r\n";
+    csvPrep += String(i);
+    csvPrep += ',' + String(dateDiff/3600) + ":" + String(dateDiff/60);
+    csvPrep += ',' + String(len(i['players'])) + "\r\n";
   }
   var finalCsv = encodeURI(csvPrep);
+  // aaaaaa
   CsvToHtmlTable.init({
     csv_path: finalCsv, 
     element: 'table-container', 
