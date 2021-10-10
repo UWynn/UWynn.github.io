@@ -17,11 +17,11 @@ permalink: /worlds/
 <script>
   let worldJson;
   async function getWorlds() {
-    let response = await fetch('//athena.wynntils.com/cache/get/serverList', {
+    let response = await fetch('https://desolate-oasis-19576.herokuapp.com/https://athena.wynntils.com/cache/get/serverList', {
         method: "GET", 
         headers: {
             "Content-Type" : "application/json",
-            "User-Agent"   : "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36"
+            "User-Agent"   : "UWynn/0.1"
         }
     });
     worldJson = await response.json();
