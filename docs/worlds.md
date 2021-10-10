@@ -38,7 +38,7 @@ permalink: /worlds/
     finalCsv = encodeURI(csvPrep);
   }
   getWorlds().then(function(){
-    makeCSV()
+    makeCSV();
     })
   }
   CsvToHtmlTable.init({
