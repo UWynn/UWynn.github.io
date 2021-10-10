@@ -27,7 +27,6 @@ permalink: /worlds/
         }
     });
     worldJson = await response.json();
-    callback && callback();
   }  
   async function makeCSV() {
     for (i in worldJson['servers']) {
@@ -37,21 +36,19 @@ permalink: /worlds/
       csvPrep += "," + String(Object.keys(worldJson['servers'][i]['players']).length) + "\r\n";
     }
     finalCsv = encodeURI(csvPrep);
-    callback && callback();
   }
-  getWorlds(function() {
-    makeCSV(function() {
-      CsvToHtmlTable.init({
-        csv_path: finalCsv, 
-        element: 'table-container', 
-        allow_download: false,
-        csv_options: {separator: ',', delimiter: '"'},
-        datatables_options: {
-          "paging": false, 
-          "autoWidth": false,
-          "order": []
-        }
-      });
-    });
-  });
+  getWorlds().then(function(){
+    makeCSV()
+    })
+  }
+  CsvToHtmlTable.init({
+    csv_path: finalCsv, 
+    element: 'table-container', 
+    allow_download: false,
+    csv_options: {separator: ',', delimiter: '"'},
+    datatables_options: {
+      "paging": false, 
+      "autoWidth": false,
+      "order": []
+  }
 </script>
