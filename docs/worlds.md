@@ -16,7 +16,7 @@ permalink: /worlds/
 <script src="/js/csv_to_html_table.js"></script>
 <script>
   let worldJson;
-  let csvPrep = "data:text/csv;charset=utf-8,";
+  let csvPrep = "World,Uptime,Player Count\r\n";
   let finalCsv;
   async function getWorlds() {
     let response = await fetch('https://desolate-oasis-19576.herokuapp.com/https://athena.wynntils.com/cache/get/serverList', {
@@ -27,7 +27,6 @@ permalink: /worlds/
         }
     });
     worldJson = await response.json();
-    csvPrep += "World,Uptime,Player Count\r\n";
     for (i in worldJson['servers']) {
       let dateDiff = Date.now() - worldJson['servers'][i]['firstSeen'];
       csvPrep += String(i);
