@@ -17,26 +17,16 @@ permalink: /worlds/
 <script>
   let worldJson;
   async function getWorlds() {
-    let response = await fetch('https://athena.wynntils.com/cache/get/serverList', {
-        method: 'GET',
-        mode: 'cors',
+    let response = await fetch('http://athena.wynntils.com/cache/get/serverList', {
+        method: "POST", 
         headers: {
-            'Content-Type': 'application/json'
+            "Content-Type" : "application/json",
+            "User-Agent"   : "UWynn"
         }
     });
-    worldJson = await response.json();
-    return worldJson;
-  }
-  getWorlds();
-    /*
-  fetch('https://athena.wynntils.com/cache/get/serverList')
-    .then(function(response) {
-        response.json().then(function(text) {
-                worldJson = text;
-                done();
-        });
-    });
-    */
+    return response;
+  } 
+  worldJson = getWorlds();
   let csvPrep = "data:text/csv;charset=utf-8,";
   csvPrep += "World,Uptime,Player Count\r\n";
   for (i in worldJson['servers']) {
