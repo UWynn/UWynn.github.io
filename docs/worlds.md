@@ -16,6 +16,8 @@ permalink: /worlds/
 <script src="/js/csv_to_html_table.js"></script>
 <script>
   let worldJson;
+  let csvPrep = "data:text/csv;charset=utf-8,";
+  let finalCsv;
   async function getWorlds() {
     let response = await fetch('https://desolate-oasis-19576.herokuapp.com/https://athena.wynntils.com/cache/get/serverList', {
         method: "GET", 
@@ -25,20 +27,16 @@ permalink: /worlds/
         }
     });
     worldJson = await response.json();
-    return worldJson;
-    // return response;
-  }
-  worldJson = getWorlds();
-  let csvPrep = "data:text/csv;charset=utf-8,";
-  csvPrep += "World,Uptime,Player Count\r\n";
-  for (i in worldJson['servers']) {
-    let dateDiff = Date.now() - worldJson['servers'][i]['firstSeen'];
-    csvPrep += String(i);
-    csvPrep += ',' + String(dateDiff/3600) + ":" + String(dateDiff/60);
-    csvPrep += ',' + String(Object.keys(worldJson['servers'][i]['players']).length) + "\r\n";
-  }
-  var finalCsv = encodeURI(csvPrep); // change this clownery to just a js array since datatables has native support for js arrays
-  // aaaaaa
+    csvPrep += "World,Uptime,Player Count\r\n";
+    for (i in worldJson['servers']) {
+      let dateDiff = Date.now() - worldJson['servers'][i]['firstSeen'];
+      csvPrep += String(i);
+      csvPrep += "," + String(dateDiff/3600) + ":" + String(dateDiff/60);
+      csvPrep += "," + String(Object.keys(worldJson['servers'][i]['players']).length) + "\r\n";
+    }
+    finalCsv = encodeURI(csvPrep);
+  }  
+  getWorlds();
   CsvToHtmlTable.init({
     csv_path: finalCsv, 
     element: 'table-container', 
