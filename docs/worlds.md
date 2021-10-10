@@ -53,5 +53,5 @@ permalink: /worlds/
         }
       });
     });
-  }); hel
+  });
 </script>
