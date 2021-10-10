@@ -18,15 +18,18 @@ permalink: /worlds/
   let worldJson;
   let csvPrep = "World,Uptime,Player Count\r\n";
   let finalCsv;
-  async function getWorlds() {
-    let response = await fetch('https://desolate-oasis-19576.herokuapp.com/https://athena.wynntils.com/cache/get/serverList', {
+  function getWorlds() {
+    let response = fetch('https://desolate-oasis-19576.herokuapp.com/https://athena.wynntils.com/cache/get/serverList', {
         method: "GET", 
         headers: {
             "Content-Type" : "application/json",
             "User-Agent"   : "UWynn/0.1"
         }
     });
-    worldJson = await response.json();
+    worldJson = response.json();
+    return worldJson;
+  }  
+  makeCSV() {
     for (i in worldJson['servers']) {
       let dateDiff = Date.now() - worldJson['servers'][i]['firstSeen'];
       csvPrep += String(i);
@@ -34,9 +37,9 @@ permalink: /worlds/
       csvPrep += "," + String(Object.keys(worldJson['servers'][i]['players']).length) + "\r\n";
     }
     finalCsv = encodeURI(csvPrep);
-    return worldJson;
-  }  
+  }
   getWorlds();
+  makeCSV();
   CsvToHtmlTable.init({
     csv_path: finalCsv, 
     element: 'table-container', 
