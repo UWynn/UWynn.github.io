@@ -27,7 +27,7 @@ permalink: /worlds/
         }
     });
     worldJson = await response.json();
-    callback();
+    callback && callback();
   }  
   async function makeCSV() {
     for (i in worldJson['servers']) {
@@ -37,7 +37,7 @@ permalink: /worlds/
       csvPrep += "," + String(Object.keys(worldJson['servers'][i]['players']).length) + "\r\n";
     }
     finalCsv = encodeURI(csvPrep);
-    callback();
+    callback && callback();
   }
   getWorlds(function() {
     makeCSV(function() {
@@ -53,5 +53,5 @@ permalink: /worlds/
         }
       });
     });
-  }); 
+  }); hel
 </script>
