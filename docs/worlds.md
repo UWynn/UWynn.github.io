@@ -32,10 +32,10 @@ permalink: /worlds/
   let csvPrep = "data:text/csv;charset=utf-8,";
   csvPrep += "World,Uptime,Player Count\r\n";
   for (i in worldJson['servers']) {
-    let dateDiff = Date.now() - i['firstSeen'];
+    let dateDiff = Date.now() - worldJson[i]['firstSeen'];
     csvPrep += String(i);
     csvPrep += ',' + String(dateDiff/3600) + ":" + String(dateDiff/60);
-    csvPrep += ',' + String(len(i['players'])) + "\r\n";
+    csvPrep += ',' + String(len(worldJson[i]['players'])) + "\r\n";
   }
   var finalCsv = encodeURI(csvPrep); // change this clownery to just a js array since datatables has native support for js arrays
   // aaaaaa
