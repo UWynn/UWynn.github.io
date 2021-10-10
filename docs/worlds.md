@@ -34,6 +34,7 @@ permalink: /worlds/
       csvPrep += "," + String(Object.keys(worldJson['servers'][i]['players']).length) + "\r\n";
     }
     finalCsv = encodeURI(csvPrep);
+    return worldJson;
   }  
   getWorlds();
   CsvToHtmlTable.init({
