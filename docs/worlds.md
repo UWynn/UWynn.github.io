@@ -29,7 +29,7 @@ permalink: /worlds/
     worldJson = response.json();
     return worldJson;
   }  
-  makeCSV() {
+  function makeCSV() {
     for (i in worldJson['servers']) {
       let dateDiff = Date.now() - worldJson['servers'][i]['firstSeen'];
       csvPrep += String(i);
