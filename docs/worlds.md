@@ -35,7 +35,7 @@ permalink: /worlds/
     let dateDiff = Date.now() - worldJson['servers'][i]['firstSeen'];
     csvPrep += String(i);
     csvPrep += ',' + String(dateDiff/3600) + ":" + String(dateDiff/60);
-    csvPrep += ',' + String(len(worldJson['servers'][i]['players'])) + "\r\n";
+    csvPrep += ',' + String(Object.keys(worldJson['servers'][i]['players']).length) + "\r\n";
   }
   var finalCsv = encodeURI(csvPrep); // change this clownery to just a js array since datatables has native support for js arrays
   // aaaaaa
