@@ -17,15 +17,17 @@ permalink: /worlds/
 <script>
   let worldJson;
   async function getWorlds() {
-    let response = await fetch('http://athena.wynntils.com/cache/get/serverList', {
-        method: "POST", 
+    let response = await fetch('https://athena.wynntils.com/cache/get/serverList', {
+        method: "GET", 
         headers: {
             "Content-Type" : "application/json",
-            "User-Agent"   : "UWynn"
+            "User-Agent"   : "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36"
         }
     });
-    return response;
-  } 
+    worldJson = await response.json();
+    return worldJson;
+    // return response;
+  }
   worldJson = getWorlds();
   let csvPrep = "data:text/csv;charset=utf-8,";
   csvPrep += "World,Uptime,Player Count\r\n";
