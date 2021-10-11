@@ -71,7 +71,7 @@ You can click on columns to sort!!!
             { title: "World" },
             { title: "Uptime (hh:mm)" },
             { title: "Player Count" },
-            { title: "Next soul point in (min)" }
+            { title: "Next soul point in ~x min" }
         ],
         order: [[1,'asc']]
       });
