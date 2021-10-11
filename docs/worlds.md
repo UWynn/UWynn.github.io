@@ -35,7 +35,7 @@ permalink: /worlds/
       csvPrep += "," + String(dateDiff/3600) + ":" + String(dateDiff/60);
       csvPrep += "," + String(Object.keys(worldJson['servers'][i]['players']).length) + "\r\n";
     }
-    finalCsv = encodeURI(csvPrep);
+    finalCsv = csvPrep;
   }
   getWorlds().then(function(){
     makeCSV();
