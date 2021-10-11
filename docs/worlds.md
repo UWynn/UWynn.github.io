@@ -49,5 +49,6 @@ permalink: /worlds/
       "paging": false, 
       "autoWidth": false,
       "order": []
-  }
+    }
+  });
 </script>
