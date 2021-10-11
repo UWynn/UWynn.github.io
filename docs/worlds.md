@@ -4,7 +4,7 @@ title: Worlds
 permalink: /worlds/
 ---
 
-<div id="table-container" class="table-dark"></div>
+<div id="worlds" class="table-dark"></div>
 
 
 
@@ -16,8 +16,7 @@ permalink: /worlds/
 <script src="/js/csv_to_html_table.js"></script>
 <script>
   let worldJson;
-  let csvPrep = "World,Uptime,Player Count\r\n";
-  let finalCsv;
+  let finalArray = [];
   async function getWorlds(callback) {
     let response = await fetch('https://desolate-oasis-19576.herokuapp.com/https://athena.wynntils.com/cache/get/serverList', {
         method: "GET", 
@@ -28,26 +27,27 @@ permalink: /worlds/
     });
     worldJson = await response.json();
   }  
-  async function makeCSV() {
+  async function makeArray() {
     for (i in worldJson['servers']) {
       let dateDiff = parseInt((Date.now() - worldJson['servers'][i]['firstSeen'])/1000);
-      csvPrep += String(i);
-      csvPrep += "," + String(Math.floor(dateDiff/3600)) + ":" + String(Math.floor(dateDiff%3600/60));
-      csvPrep += "," + String(Object.keys(worldJson['servers'][i]['players']).length) + "\r\n";
+      let arrayPrep = [];
+      arrayPrep.push(String(i));
+      arrayPrep.push(String(Math.floor(dateDiff/3600)) + ":" + String(Math.floor(dateDiff%3600/60)));
+      arrayPrep.push(String(Object.keys(worldJson['servers'][i]['players']).length) + "\r\n");
+      finalArray.push(arrayPrep);
     }
   }
   getWorlds().then(function(){
-    makeCSV();
+    makeArray();
   })
-  CsvToHtmlTable.init({
-    csv_path: csvPrep, 
-    element: 'table-container', 
-    allow_download: false,
-    csv_options: {separator: ',', delimiter: '"'},
-    datatables_options: {
-      "paging": false, 
-      "autoWidth": false,
-      "order": []
-    }
-  });
+  $(document).ready(function() {
+    $('#worlds').DataTable( {
+        data: finalArray,
+        columns: [
+            { title: "World" },
+            { title: "Uptime" },
+            { title: "Player Count" }
+        ]
+    } );
+} );
 </script>
