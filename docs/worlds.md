@@ -4,7 +4,7 @@ title: Worlds
 permalink: /worlds/
 ---
 
-<table id="worlds" class="table-dark"></table>
+<table class='table table-striped table-condensed table-dark' id="worlds"></table>
 
 
 
@@ -43,6 +43,8 @@ permalink: /worlds/
   $(document).ready(function() {
     $('#worlds').DataTable( {
         data: finalArray,
+        paging: false, 
+        autoWidth: false,
         columns: [
             { title: "World" },
             { title: "Uptime" },
