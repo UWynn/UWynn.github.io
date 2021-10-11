@@ -33,15 +33,13 @@ permalink: /worlds/
       let arrayPrep = [];
       arrayPrep.push(String(i));
       arrayPrep.push(String(Math.floor(dateDiff/3600)) + ":" + String(Math.floor(dateDiff%3600/60)));
-      arrayPrep.push(String(Object.keys(worldJson['servers'][i]['players']).length) + "\r\n");
+      arrayPrep.push(String(Object.keys(worldJson['servers'][i]['players']).length));
       finalArray.push(arrayPrep);
     }
   }
   getWorlds().then(function(){
-    makeArray();
-  })
-  $(document).ready(function() {
-    $('#worlds').DataTable( {
+    makeArray().then(function(){
+      $('#worlds').DataTable({
         data: finalArray,
         paging: false, 
         autoWidth: false,
@@ -50,6 +48,7 @@ permalink: /worlds/
             { title: "Uptime" },
             { title: "Player Count" }
         ]
-    } );
-} );
+      });
+    })
+  })
 </script>
