@@ -35,13 +35,12 @@ permalink: /worlds/
       csvPrep += "," + String(Math.floor(dateDiff/3600)) + ":" + String(Math.floor(dateDiff%3600/60));
       csvPrep += "," + String(Object.keys(worldJson['servers'][i]['players']).length) + "\r\n";
     }
-    finalCsv = csvPrep;
   }
   getWorlds().then(function(){
     makeCSV();
   })
   CsvToHtmlTable.init({
-    csv_path: finalCsv, 
+    csv_path: csvPrep, 
     element: 'table-container', 
     allow_download: false,
     csv_options: {separator: ',', delimiter: '"'},
