@@ -4,7 +4,7 @@ title: Worlds
 permalink: /worlds/
 ---
 
-<div id="worlds" class="table-dark"></div>
+<table id="worlds" class="table-dark"></table>
 
 
 
