@@ -3,6 +3,11 @@ layout: page
 title: Changelog
 permalink: /changelog/
 ---
+
+## 2021/10/10
+- Suffered doing world uptime shenanigans :(((
+- Finished world uptime/soul point stuff!!! epic!!
+
 ## 2021/10/9
 - Trying to do some world uptime shenanigans :)))
 
