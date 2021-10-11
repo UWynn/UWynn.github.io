@@ -8,7 +8,9 @@ Please don't spam refresh.
 
 Data from [Athena](https://github.com/Wynntils/Athena)
 
-<table class='table table-striped table-condensed table-dark' id="worlds"></table>
+You can click on columns to sort!!!
+
+<table class='table table-striped table-condensed table-dark table-sm' id="worlds"></table>
 
 
 
@@ -18,6 +20,7 @@ Data from [Athena](https://github.com/Wynntils/Athena)
 <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
 <script type="text/javascript" src="//cdn.datatables.net/plug-ins/1.10.19/sorting/time.js"></script>
+<script type="text/javascript" src="//cdn.datatables.net/plug-ins/1.11.3/sorting/natural.js"></script>
 <script>
   let worldJson;
   let finalArray = [];
@@ -61,7 +64,8 @@ Data from [Athena](https://github.com/Wynntils/Athena)
         autoWidth: false,
         searching: false,
         columnDefs: [
-          { type: 'time-uni', targets: 1 }
+          { type: 'time-uni', targets: 1 },
+          { type: 'natural', targets: 0 }
         ],
         columns: [
             { title: "World" },
