@@ -52,6 +52,7 @@ defaults:
       layout: "default"
 
 header_pages:
+ - worlds.md
  - guides.md
  - about.md
  - changelog.md
