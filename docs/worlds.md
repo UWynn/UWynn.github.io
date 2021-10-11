@@ -30,9 +30,9 @@ permalink: /worlds/
   }  
   async function makeCSV() {
     for (i in worldJson['servers']) {
-      let dateDiff = Date.now() - worldJson['servers'][i]['firstSeen'];
+      let dateDiff = parseInt((Date.now() - worldJson['servers'][i]['firstSeen'])/1000);
       csvPrep += String(i);
-      csvPrep += "," + String(dateDiff/3600) + ":" + String(dateDiff/60);
+      csvPrep += "," + String(Math.floor((dateDiff/3600)) + ":" + String(Math.floor(dateDiff/60));
       csvPrep += "," + String(Object.keys(worldJson['servers'][i]['players']).length) + "\r\n";
     }
     finalCsv = csvPrep;
