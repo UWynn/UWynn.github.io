@@ -32,7 +32,7 @@ permalink: /worlds/
     for (i in worldJson['servers']) {
       let dateDiff = parseInt((Date.now() - worldJson['servers'][i]['firstSeen'])/1000);
       csvPrep += String(i);
-      csvPrep += "," + String(Math.floor(dateDiff/3600)) + ":" + String(Math.floor(dateDiff/60));
+      csvPrep += "," + String(Math.floor(dateDiff/3600)) + ":" + String(Math.floor(dateDiff%3600/60));
       csvPrep += "," + String(Object.keys(worldJson['servers'][i]['players']).length) + "\r\n";
     }
     finalCsv = csvPrep;
