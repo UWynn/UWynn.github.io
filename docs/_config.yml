@@ -29,11 +29,14 @@ sass:
 #theme: minima
 minima:
   skin: dark
+  social_links:
+    github: SayaDuck
 plugins:
   - jekyll-feed
 collections:
   authors:
     output: true
+
 
 defaults:
   - scope:
