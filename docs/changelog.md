@@ -5,6 +5,7 @@ permalink: /changelog/
 ---
 ## 2021/10/15
 - Split world stuff to js file instead of cramming it in the script tag
+- Made social links work (removed padding from generated style)
 
 ## 2021/10/10
 - Suffered doing world uptime shenanigans :(((
