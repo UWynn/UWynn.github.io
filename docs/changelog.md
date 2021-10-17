@@ -3,6 +3,9 @@ layout: page
 title: Changelog
 permalink: /changelog/
 ---
+## 2021/10/17
+- Fixed quake radius
+
 ## 2021/10/15
 - Split world stuff to js file instead of cramming it in the script tag
 - Made social links work (removed padding from generated style)
