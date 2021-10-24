@@ -3,6 +3,9 @@ layout: page
 title: Changelog
 permalink: /changelog/
 ---
+## 2021/10/24
+- Removed 11 from warrior mana table
+
 ## 2021/10/17
 - Fixed quake radius
 

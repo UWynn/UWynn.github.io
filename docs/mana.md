@@ -185,9 +185,6 @@ permalink: /mana/
             <td rowspan="3">6</td>
         </tr>
         <tr>
-            <td>11</td>
-        </tr>
-        <tr>
             <td>12</td>
             <td rowspan="2">8</td>
         </tr>
