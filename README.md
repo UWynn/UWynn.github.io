@@ -1,5 +1,5 @@
 # [UWynn](https://uwynn.github.io)
-Wynncraft untility site. Includes a world uptime page, quest issue tracker, ID definition table, int threshold charts, and various guides, with more pages being added regularly.
+Wynncraft utility site. Includes a world uptime page, quest issue tracker, ID definition table, int threshold charts, and various guides, with more pages being added regularly.
 
 ![UWynn frontpage as of October 24, 2021](https://raw.githubusercontent.com/UWynn/UWynn.github.io/gh-pages/docs/img/UWynn_readme.png)
 
