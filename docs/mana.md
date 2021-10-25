@@ -179,10 +179,10 @@ permalink: /mana/
         <tbody>
         <tr>
             <td>0</td>
-            <td rowspan="3">6</td>
-            <td rowspan="5">4</td>
-            <td rowspan="2">9</td>
-            <td rowspan="3">6</td>
+            <td rowspan="2">6</td>
+            <td rowspan="4">4</td>
+            <td rowspan="1">9</td>
+            <td rowspan="2">6</td>
         </tr>
         <tr>
             <td>12</td>

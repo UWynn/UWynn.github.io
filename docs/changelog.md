@@ -5,6 +5,8 @@ permalink: /changelog/
 ---
 ## 2021/10/24
 - Removed 11 from warrior mana table
+- Updated readme
+- tried to remove jquery but was unsuccessful- cleaned up code instead
 
 ## 2021/10/17
 - Fixed quake radius
