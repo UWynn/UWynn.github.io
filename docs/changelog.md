@@ -4,9 +4,13 @@ title: Changelog
 permalink: /changelog/
 ---
 ## 2021/10/24
-- Removed 11 from warrior mana table
+- Removed 11 from warrior mana table (no clue how that got there and stayed there) - Thanks catking00
 - Updated readme
 - tried to remove jquery but was unsuccessful- cleaned up code instead
+- Edited IDs (STILL NEED TO DO ADDITIONAL INFO AAAAAAAA)
+- Edited cbvocab - Thanks Whats_Sigma for feedback
+- Added rainraw to cbvocab - Thanks touhoku for the tldr refresher
+- 
 
 ## 2021/10/17
 - Fixed quake radius
