@@ -3,6 +3,9 @@ layout: page
 title: Changelog
 permalink: /changelog/
 ---
+## 2021/10/25
+- Massive quest troubleshooting update (finally got to it)
+
 ## 2021/10/24
 - Removed 11 from warrior mana table (no clue how that got there and stayed there) - Thanks catking00
 - Updated readme
