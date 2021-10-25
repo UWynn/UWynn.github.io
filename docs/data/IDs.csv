@@ -22,19 +22,19 @@ Agility,,ID & Stat,Raw,Chance to dodge damage. Doesn't work on true damage attac
 ✹ Fire Damage,,Stat,Raw,"Acts like Neutral Damage, but benefits from Fire Damage % and is affected by Fire Defense.",
 ❋ Air Damage,,Stat,Raw,"Acts like Neutral Damage, but benefits from Air Damage % and is affected by Air Defense.",
 Attack Speed,,Stat,Raw,How fast (or slow) the weapon attacks. Check Additional Info.,soon
-Earth Damage %,,ID,%,Affects Earth Damage by a percentage,
-Thunder Damage %,,ID,%,Affects Thunder Damage by a percentage,
-Water Damage %,,ID,%,Affects Water Damage by a percentage,
-Fire Damage %,,ID,%,Affects Fire Damage by a percentage,
-Air Damage %,,ID,%,Affects Air Damage by a percentage,
-Main Attack Damage %,Melee%,ID,%,Affects the damage of Main Attacks by a percentage,
+Earth Damage %,,ID,%,Affects Earth Damage by a percentage.,
+Thunder Damage %,,ID,%,Affects Thunder Damage by a percentage.,
+Water Damage %,,ID,%,Affects Water Damage by a percentage.,
+Fire Damage %,,ID,%,Affects Fire Damage by a percentage.,
+Air Damage %,,ID,%,Affects Air Damage by a percentage.,
+Main Attack Damage %,Melee%,ID,%,Affects the damage of Main Attacks by a percentage.,
 Main Attack Neutral Damage,Raw Melee,ID,Raw,Adds a flat amount to the damage of Main Attacks.,
 Spell Damage %,,ID,%,Affects the damage of spells by a percentage,
 "Neutral Spell Damage
 ",Raw Spell,ID,Raw,Adds a flat amount to the damage of spells. Affected by spell multiplier.,
 Spell Damage,"Rainbow Spell, Rainbow Spell Raw, Rainbow Raw, rainraw",ID,Raw,"Works like Neutral Spell Damage, but displays elemental damage numbers. Assumed to be an unfinished ID.",
 Attack Speed Bonus,"tier, attack speed, attack tier",ID,Raw,Increases or decreases attack speed. Cannot exceed Super Fast or go below Super Slow. Check Additional Info.,soon
-Poison,,ID,Raw,"Deals a third of the listed damage per tick as true damage, with three ticks spread across three seconds. Do note the first tick takes 1.25 seconds. Check Additional Info.",soon
+Poison,,ID,Raw,"Deals a third of the listed damage per tick as true damage, with three ticks spread across three seconds. Do note the first tick takes 1.25 seconds. Doesn't stack. Check Additional Info.",soon
 Health,"Bonus HP, Health Bonus, HP ID",ID,Raw,Increases Max Health by a fixed amount.,
 Earth Defence %,,ID,%,Affects Earth Defense by a percentage.,
 Thunder Defence %,,ID,%,Affects Thunder Defense by a percentage.,
@@ -58,7 +58,7 @@ Spell Cost,spell cost raw,ID,Raw,Affects spell cost. Happens after int is factor
 Xp Bonus %,"xp bonus, xpb",ID,%,"Affects combat xp gain. Does not modify fixed xp gain (quest, discovery, LI, raid), but works with mobs, dungeons, etc.",
 Gather XP Bonus %,gxp,ID,%,Affects gathering xp gain.,
 Gather Speed %,gspeed,ID,%,"Affects gathering speed. Since gathering in practice is by hit count, gspeed is threshold based.",
-Stealing %,,ID,%,Chance to make a mob drop an emerald on hit (poison counts). There's a cooldown between drops based on final attack speed.,
+Stealing %,,ID,%,"Chance to make a mob drop an emerald on hit (poison counts). There's a cooldown between drops based on final attack speed, and a cap of 5 emeralds per mob.",
 Loot Bonus %,lb,ID,%,"Affects the amount of loot. LB on chests scales and has a softcap at 80%, with 1% LB above 80% being equal to .2% effective LB. There's no softcap or scaling on mobs. Check Additional Info for the scaling formula and more.",soon
 Loot Quality %,lq,ID,%,"Affects the chance for higher rarity loot. LQ on chests scales and has a softcap at 40%, with 1% LQ above 40% being equal to .1% LQ. There's no softcap or scaling on mobs, and for ingredient drops, LQ works identically to LB. Check Additional Info for the scaling formula and more.",soon
 Soul Point Regen %,spr,ID,%,"Chance to get 2 soul points instead of 1 at sunrise. SPR past 100% doesn't do anything, and negative doesn't do anything.",
@@ -85,4 +85,4 @@ Freerunner,,Major ID,,2x sprint speed when sprint bar <30%. It can't be used to 
 Furious Effigy,,Major ID,,"Totem damage and heal tick 2x faster, but totem duration is halved. Works with Peaceful Effigy for normal duration & 2x tick.",
 Peaceful Effigy,,Major ID,,2x totem duration. Works with Furious Effigy for normal duration & 2x tick.,
 Rally,,Major ID,,"Charge does no damage but heals on impact (15% to others, 7% to you).",
-Geocentrism,,Major ID,,Aura casts centered on player.,
+Geocentrism,,Major ID,,"Aura casts centered on player, and doesn't require totem to cast.",

@@ -10,6 +10,8 @@ permalink: /changelog/
 - Edited IDs (STILL NEED TO DO ADDITIONAL INFO AAAAAAAA)
 - Edited cbvocab - Thanks Whats_Sigma for feedback
 - Added rainraw to cbvocab - Thanks touhoku for the tldr refresher
+- Various edits - Thanks Whats_Sigma
+- Added images to powder guide
 
 ## 2021/10/17
 - Fixed quake radius

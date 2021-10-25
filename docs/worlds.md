@@ -8,7 +8,7 @@ Please don't spam refresh. If nothing shows up, refresh once and it should work.
 
 Data from [Athena](https://github.com/Wynntils/Athena)
 
-You can click on columns to sort!!!
+The table is sortable, click on column headers.
 
 <table class='table table-striped table-condensed table-dark table-sm' id="worlds"></table>
 
