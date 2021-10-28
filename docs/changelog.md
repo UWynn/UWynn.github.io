@@ -3,6 +3,9 @@ layout: page
 title: Changelog
 permalink: /changelog/
 ---
+## 2021/10/27
+- Quest status update
+
 ## 2021/10/25
 - Massive quest troubleshooting update (finally got to it)
 

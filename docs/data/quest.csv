@@ -19,13 +19,12 @@ Colossal Rat gets stuck in ceiling ,28,Misadventure on the Sea,6,,Not a Bug,Don'
 Can't complete Jungle Fever/Lost the Liquified Emeralds,52,Jungle Fever,6,,Not a Bug,"You need to give Worid all of the fake LE. It's not usable as currency. If you manage to lose some, you'll have to delete them and use /fixquests to get the whole stack back. Don't right click while holding the fake Liquified Emeralds."
 NPC doesn't want to talk to you/is missing,,,,,,"Search the question for your specific quest. Check if you missed a trigger. If there's nothing, try /class, swapping worlds, relogging, and/or doing /kill with 6+ soul points."
 teleport or trigger not working?,,,,,,"/class and/or relog. If it doesn't work, search your specific quest/issue."
-Enter the Dojo tokens,89,Enter the Dojo,4,,Needs Map Push,It's broken. The fix is ready and should be pushed next update.
-One Thousand Meters Under submarine ,95,One Thousand Meters Under ,9,,Needs Map Push,It's broken. The fix is ready and should be pushed next update.
+Enter the Dojo tokens,89,Enter the Dojo,4,,Fixed,"Was broken, fix pushed in late October 2021"
+One Thousand Meters Under submarine ,95,One Thousand Meters Under ,9,,Fixed,"Was broken, fix pushed in late October 2021"
 Fireballs in Grookwarts Fire class,63,The Order of the Grook,10,,Not a Bug,"Try toggling hitboxes with F3 + B and aiming for the hitboxes, and using an empty hand rather than a weapon. This class is notoriously painful if you have a bad connection to the server or hardware lag."
 Forbidden Prison cutscene stuck,72,Forbidden Prison,6,,Not a Bug,"Try swapping worlds. If that doesn't work, try /kill with 6+ soul points."
-A Hunter's Calling Detlas Cutscene,103,A Hunter's Calling,29,,Needs Map Push,It's broken. The fix is ready and should be pushed next update.
-"Cowfusion ""Wait""",86,Cowfusion,14,,Needs Map Push,It's broken. The fix is ready and should be pushed next update.
+A Hunter's Calling Detlas Cutscene,103,A Hunter's Calling,29,,Needs Map Push,It's broken. The fix is ready and should be pushed next update. Could have been pushed already. Playing it safe here.
+"Cowfusion ""Wait""",86,Cowfusion,14,,Fixed,"Was broken, fix pushed in late October 2021"
 Lost Soles villager face pressure plate not working,66,Lost Soles,4,,Not a Bug,Relogging should fix it.
-Corrupted Betrayal bringing Cursed Slingra Sheep but nothing happens/can't sacrifice,52,Corrupted Betrayal,2,,Needs Map Push,It's broken. The fix is ready and should be pushed next update.
+Corrupted Betrayal bringing Cursed Slingra Sheep but nothing happens/can't sacrifice,52,Corrupted Betrayal,2,,Fixed,"Was broken, fix pushed in late October 2021"
 WynnExcavation Site B teleported away from hole,46,WynnExcavation Site B,1,Encountered when trying to do Stage 2 while 1 isn't complete,Not a Bug,"Bring the yellow crystal shard to Excavator Lykron. The shard needs to say ""Quest Item""."
-Enter the Dojo combat challenge room tokens,89,Enter the Dojo,4,,Needs Map Push,It's broken. The fix is ready and should be pushed next update.
