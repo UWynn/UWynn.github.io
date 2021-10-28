@@ -6,7 +6,7 @@ permalink: /worlds/
 
 Please don't spam refresh. If nothing shows up, refresh once and it should work.
 
-Data from [Athena](https://github.com/Wynntils/Athena)
+Data from [Athena](https://github.com/Wynntils/Athena). If nothing shows even after reloading, Athena may be down at the moment.
 
 The table is sortable, click on column headers.
 
