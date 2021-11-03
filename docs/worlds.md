@@ -32,7 +32,7 @@ The table is sortable, click on column headers.
             { title: "World" },
             { title: "Uptime (hh:mm)" },
             { title: "Player Count" },
-            { title: "Next soul point in ~x min" }
+            { title: "Next soul point in < x min" }
         ],
         order: [[1,'asc']]
       });
