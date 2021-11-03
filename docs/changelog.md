@@ -3,6 +3,9 @@ layout: page
 title: Changelog
 permalink: /changelog/
 ---
+## 2021/11/3
+- World list [soul point regen default sort](/sptime/)
+
 ## 2021/10/27
 - Quest status update
 

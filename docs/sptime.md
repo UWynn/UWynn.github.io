@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Worlds
-permalink: /worlds/
+title: Soul Point Timer
+permalink: /sptime/
 ---
 
 Please don't spam refresh. If nothing shows up, refresh once and it should work. If nothing shows even after reloading, Athena may be down at the moment.
 
-Data from [Athena](https://github.com/Wynntils/Athena). Soul Point default sort version [here](/sptime/).
+Data from [Athena](https://github.com/Wynntils/Athena). Uptime default sort version [here](/worlds/).
 
 The table is sortable, click on column headers.
 
@@ -34,7 +34,7 @@ The table is sortable, click on column headers.
             { title: "Player Count" },
             { title: "Next soul point in ~x min" }
         ],
-        order: [[1,'asc']]
+        order: [[3,'asc']]
       });
     })
   })
