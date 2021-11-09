@@ -11,7 +11,7 @@ permalink: /quest/
 {% include js.html %}
 <script>
   CsvToHtmlTable.init({
-    csv_path: '/data/quest.csv', 
+    csv_path: 'https://docs.google.com/spreadsheets/d/1sQPdqYGAegmhV3ngyjjNaxpoDFnioyJqxIdhR2PeQdY/export?format=csv', 
     element: 'table-container', 
     allow_download: false,
     csv_options: {separator: ',', delimiter: '"'},

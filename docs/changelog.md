@@ -4,6 +4,9 @@ title: Changelog
 permalink: /changelog/
 ---
 ## 2021/11/3
+- AUTOMATIC UPDATE FOR QUEST SHEET!!! love google sheet download urls. yep.
+
+## 2021/11/3
 - World list [soul point regen default sort](/sptime/)
 - cleaned up worlds.js
 
