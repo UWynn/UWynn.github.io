@@ -3,7 +3,12 @@ layout: page
 title: Changelog
 permalink: /changelog/
 ---
-## 2021/11/3
+## 2021/11/9
+- Fixed yesterday changelog date
+- Added sorting arrows (thanks jerjer)
+- Re-fixed world name sorting order (thanks catking00)
+
+## 2021/11/8
 - AUTOMATIC UPDATE FOR QUEST SHEET!!! love google sheet download urls. yep.
 
 ## 2021/11/3
