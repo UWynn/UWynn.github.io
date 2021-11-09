@@ -16,6 +16,8 @@ The table is sortable, click on column headers.
 
 {% include js.html %}
 <script src="/js/worlds.js"></script>
+<script src="//cdn.datatables.net/plug-ins/1.11.3/sorting/natural.js"></script>
+<script src="//cdn.datatables.net/plug-ins/1.10.19/sorting/time.js"></script>
 <script>
   getWorlds().then(function(){
     makeArray().then(function(){
@@ -25,8 +27,8 @@ The table is sortable, click on column headers.
         autoWidth: false,
         searching: false,
         columnDefs: [
-          { type: 'time-uni', targets: 1 },
-          { type: 'natural', targets: 0 }
+          { type: 'natural', targets: 0 },
+          { type: 'time-uni', targets: 1 }
         ],
         columns: [
             { title: "World" },
