@@ -3,7 +3,7 @@ layout: page
 title: Market
 permalink: /market/
 ---
-<p>Market listing board. Get your own row & update it with <a href="https://forms.gle/auuD6fUSLtePDNfT6">the form</a>.</p>
+<p>Market listing board. Get your own row & update it with <a href="https://forms.gle/auuD6fUSLtePDNfT6">the form</a>. Default sort is weighted random.</p>
 <div id="table-container" class="table-dark"></div>
 
 {% include js.html %}
@@ -22,16 +22,18 @@ permalink: /market/
     csv_options: {separator: ',', delimiter: '"'},
     datatables_options: {
       "paging": false, 
-      "order": [[3,'asc']],
+      "order": [[4,'asc']],
       "autoWidth": false,
       "columns": [
         { "width": "15%" }, // Username
         { "width": "30%" }, // Image
         { "width": "45%" }, // Text
         { "width": "10%" }, // Last Updated
+        { "width": "0%" } // random thing
       ],
       "columnDefs": [
-        { type: 'time-uni', targets: 3 }
+        { type: 'time-uni', targets: 3 },
+        { visible: false, targets: 4 }
       ]
     },
     custom_formatting: [[1, imageInsert]]

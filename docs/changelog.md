@@ -6,6 +6,7 @@ permalink: /changelog/
 ## 2021/11/22
 - Moved contributor list to about
 - Market up!
+- Made market default to a weighted random sort :)
 
 ## 2021/11/9
 - Fixed yesterday changelog date
