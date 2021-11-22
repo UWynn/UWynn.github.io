@@ -3,6 +3,9 @@ layout: page
 title: Changelog
 permalink: /changelog/
 ---
+## 2021/11/22
+- Moved contributor list to about
+
 ## 2021/11/9
 - Fixed yesterday changelog date
 - Added sorting arrows (thanks jerjer)

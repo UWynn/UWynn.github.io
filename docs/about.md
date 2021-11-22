@@ -14,3 +14,38 @@ I guess I can plug my stuff so here, [educational wynncraft content](https://www
 If you want to talk about/help UWynn, [here's the discord](https://discord.gg/qMZEmqm7Zh).
 
 
+## Contributors:
+
+<table class="table table-dark table-striped table-hover" id="contriblist">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Role</th>
+      <th>Bio</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for author in site.authors %}
+    <tr>
+      <td><a href="{{ author.url }}">{{ author.name }}</a></td>
+      <td>{{ author.position }} </td>
+      <td>{{ author.content | markdownify }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{% include js.html %}
+<script>
+  $(document).ready(function() {
+      $('#contriblist').DataTable( {
+        "paging": false, 
+        "autoWidth": false,
+        "columns": [
+          { "width": "20%" }, // name
+          { "width": "20%" }, // role
+          { "width": "60%" } // bio
+        ]
+      });
+  } );
+</script>
