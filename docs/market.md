@@ -3,7 +3,7 @@ layout: page
 title: Market
 permalink: /market/
 ---
-<p>Market listing board. Get your own row & update it with <a href="https://forms.gle/auuD6fUSLtePDNfT6" target="_blank">the form</a>. Default sort is weighted random.</p>
+<p>Market listing board. A fun proof of concept thing, I guess? <br/> Get your own row & update it with <a href="https://forms.gle/auuD6fUSLtePDNfT6" target="_blank">the form</a>. Default sort is weighted random.</p>
 <div id="table-container" class="table-dark"></div>
 
 {% include js.html %}
