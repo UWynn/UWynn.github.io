@@ -4,7 +4,7 @@ title: Soul Point Timer
 permalink: /sptime/
 ---
 
-Please don't spam refresh. If nothing shows up, refresh once and it should work. If nothing shows even after reloading, Athena may be down at the moment.
+High uptime worlds may be extremely desynced from the 20 minute soul point cycle. 
 
 Data from [Athena](https://github.com/Wynntils/Athena). Uptime default sort version [here](/worlds/).
 
