@@ -3,6 +3,9 @@ layout: page
 title: Changelog
 permalink: /changelog/
 ---
+## 2021/11/23
+- Changed market sheet to more direct
+
 ## 2021/11/22
 - Moved contributor list to about
 - Market up!

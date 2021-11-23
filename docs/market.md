@@ -16,7 +16,7 @@ permalink: /market/
       return "";
   }
   CsvToHtmlTable.init({
-    csv_path: 'https://docs.google.com/spreadsheets/d/1gs7uBMihI0tIb3P0JeEXOyaMZLfS6cUpEzlPBx5jqLg/export?format=csv', 
+    csv_path: 'https://docs.google.com/spreadsheets/d/1bIr4b1dSVtOWxDcgjaBIGzwppZ6FwDg5vf08uyneav4/export?format=csv', 
     element: 'table-container', 
     allow_download: false,
     csv_options: {separator: ',', delimiter: '"'},
