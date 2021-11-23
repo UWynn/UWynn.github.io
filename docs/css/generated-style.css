@@ -130,7 +130,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 /** Tables */
 table { margin-bottom: 30px; width: 100%; text-align: left; color: #bbbbbb; border-collapse: collapse; border: 1px solid #404040; }
 table tr:nth-child(even) { background-color: #222222; }
-table th, table td { padding: 10px 15px; }
+table th, table td { padding: 10px 15px; overflow:hidden;}
 table th { background-color: #323232; border: 1px solid #4e4e4e; }
 table td { border: 1px solid #404040; }
 @media screen and (max-width: 800px) { table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; -ms-overflow-style: -ms-autohiding-scrollbar; } }

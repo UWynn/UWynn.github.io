@@ -37,7 +37,9 @@ permalink: /market/
         { visible: false, targets: 5 }
       ]
     },
-    custom_formatting: [[2, imageInsert]]
+    custom_formatting: [
+        [2, imageInsert]
+    ]
   });
 </script>
 
