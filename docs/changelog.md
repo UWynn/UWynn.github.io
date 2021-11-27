@@ -3,6 +3,10 @@ layout: page
 title: Changelog
 permalink: /changelog/
 ---
+## 2021/11/27
+- Closed market experiment
+- ID clarifications (8 blocks :flushed:)
+
 ## 2021/11/23
 - Changed market sheet to more direct
 
