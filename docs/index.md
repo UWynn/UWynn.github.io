@@ -15,7 +15,7 @@ layout: default
   <div class="row justify-content-center">
     <div class="card text-white bg-dark mb-3 me-3 col-sm-6" style="width: 18rem;">
       <div class="card-header">
-        Stuck on a Quest?
+        Quest "bugged" for you?
       </div>
       <div class="card-body d-flex flex-column">
         <h5 class="card-title">Quest Help</h5>
@@ -25,7 +25,7 @@ layout: default
     </div>
     <div class="card text-white bg-dark mb-3 me-3 col-sm-6" style="width: 18rem;">
       <div class="card-header">
-        Frequently Asked
+        Got an uncommon inquiry?
       </div>
       <div class="card-body d-flex flex-column">
         <h5 class="card-title">FAQ</h5>
@@ -35,7 +35,7 @@ layout: default
     </div>
     <div class="card text-white bg-dark mb-3 me-3 col-sm-6" style="width: 18rem;">
       <div class="card-header">
-        Want to know more about IDs?
+        Need info on what IDs do?
       </div>
       <div class="card-body d-flex flex-column">
         <h5 class="card-title">ID list</h5>
@@ -55,7 +55,7 @@ layout: default
     </div>
     <div class="card text-white bg-dark mb-3 me-3 col-sm-6" style="width: 18rem;">
       <div class="card-header">
-        Need standardized terms?
+        Standardized terms?
       </div>
       <div class="card-body d-flex flex-column">
         <h5 class="card-title">Class Builds Dictionary</h5>

@@ -6,6 +6,7 @@ permalink: /changelog/
 ## 2021/11/27
 - Closed market experiment
 - ID clarifications (8 blocks :flushed:)
+- Index rewrites
 
 ## 2021/11/23
 - Changed market sheet to more direct
