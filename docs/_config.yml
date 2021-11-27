@@ -56,7 +56,6 @@ defaults:
 
 header_pages:
  - worlds.md
- - market.md
  - guides.md
  - about.md
  - changelog.md
