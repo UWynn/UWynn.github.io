@@ -3,6 +3,11 @@ layout: page
 title: Changelog
 permalink: /changelog/
 ---
+## 2021/12/21
+- Quest section description change (rework soon)
+- Eledef guide partially done
+- Re-sectioned powder guide
+
 ## 2021/11/27
 - Closed market experiment
 - ID clarifications (8 blocks :flushed:)
