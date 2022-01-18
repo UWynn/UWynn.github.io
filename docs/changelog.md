@@ -3,6 +3,9 @@ layout: page
 title: Changelog
 permalink: /changelog/
 ---
+## 2022/01/18
+- Fixed one mana table error (19, not 20) (thanks MachiToons#9668)
+
 ## 2021/12/21
 - Quest section description change (rework soon)
 - Eledef guide partially done
