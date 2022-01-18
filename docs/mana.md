@@ -35,7 +35,7 @@ permalink: /mana/
             <td rowspan="3">7</td>
         </tr>
         <tr>
-            <td>20</td>
+            <td>19</td>
             <td rowspan="4">5</td>
         </tr>
         <tr>
@@ -123,7 +123,7 @@ permalink: /mana/
             <td rowspan="2">7</td>
         </tr>
         <tr>
-            <td>20</td>
+            <td>19</td>
             <td rowspan="2">5</td>
         </tr>
         <tr>
@@ -189,7 +189,7 @@ permalink: /mana/
             <td rowspan="2">8</td>
         </tr>
         <tr>
-            <td>20</td>
+            <td>19</td>
             <td rowspan="3">5</td>
             <td rowspan="3">5</td>
         </tr>
@@ -263,7 +263,7 @@ permalink: /mana/
             <td rowspan="2">7</td>
         </tr>
         <tr>
-            <td>20</td>
+            <td>19</td>
             <td rowspan="2">5</td>
         </tr>
         <tr>
@@ -329,7 +329,7 @@ permalink: /mana/
             <td rowspan="2">7</td>
         </tr>
         <tr>
-            <td>20</td>
+            <td>19</td>
             <td rowspan="2">5</td>
         </tr>
         <tr>
