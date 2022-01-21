@@ -63,6 +63,16 @@ layout: default
         <a href="/cbvocab/" class="btn btn-outline-light text-light mt-auto">cbvocab</a>
       </div>
     </div>
+    <div class="card text-white bg-dark mb-3 me-3 col-sm-6" style="width: 18rem;">
+      <div class="card-header">
+        Going fast?
+      </div>
+      <div class="card-body d-flex flex-column">
+        <h5 class="card-title">Speed Calculator</h5>
+        <p class="card-text">Calculate speed.</p>
+        <a href="/speed/" class="btn btn-outline-light text-light mt-auto">speed</a>
+      </div>
+    </div>
   </div>
 </div>
 
