@@ -3,6 +3,9 @@ layout: page
 title: Changelog
 permalink: /changelog/
 ---
+## 2022/01/21
+- Added speed calculator
+
 ## 2022/01/18
 - Fixed one mana table error (19, not 20) (thanks MachiToons#9668)
 
