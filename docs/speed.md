@@ -28,8 +28,8 @@ Wynncraft player blocks per second calculator or something.
 - 15 (Upgraded Brown): 12.2
 - 20 (Black): 13.5
 - 25 (Upgraded Black): 14.8
-- 30 (Chestnut): 17.3
-- 35 (Upgraded Chestnut): 14
+- 30 (Chestnut): 16.0
+- 35 (Upgraded Chestnut): 17.3
 - 40 (White): 18.5
 
 
