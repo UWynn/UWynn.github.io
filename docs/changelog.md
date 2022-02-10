@@ -3,6 +3,9 @@ layout: page
 title: Changelog
 permalink: /changelog/
 ---
+## 2022/02/09
+- fixed horse speeds (oops)
+
 ## 2022/01/21
 - Added speed calculator
 

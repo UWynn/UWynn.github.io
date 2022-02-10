@@ -23,14 +23,14 @@ Wynncraft player blocks per second calculator or something.
 <p id="finalbps"></p>
 <br>
 
-**Horse Level (Type): BPS**
-- 10 (Brown): 9
-- 15 (Upgraded Brown): 10
-- 20 (Black): 11
-- 25 (Upgraded Black): 12
-- 30 (Chestnut): 13
+**Horse Level (Type): BPS, sourced from [wiki](https://wynncraft.fandom.com/wiki/Horses)**
+- 10 (Brown): 11
+- 15 (Upgraded Brown): 12.2
+- 20 (Black): 13.5
+- 25 (Upgraded Black): 14.8
+- 30 (Chestnut): 17.3
 - 35 (Upgraded Chestnut): 14
-- 40 (White): 15
+- 40 (White): 18.5
 
 
 
