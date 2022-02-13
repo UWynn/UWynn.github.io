@@ -3,6 +3,9 @@ layout: page
 title: Changelog
 permalink: /changelog/
 ---
+## 2022/02/12
+- Updated powder guide to reflect [2022/02/09 silent patch removing recasts](https://youtu.be/liyUnSFZCP4)
+
 ## 2022/02/09
 - fixed horse speeds (oops)
 
