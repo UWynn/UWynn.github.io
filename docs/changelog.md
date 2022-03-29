@@ -5,6 +5,7 @@ permalink: /changelog/
 ---
 ## 2022/03/29
 - ELEDEF GUIDE ELEDEF GUIDE
+- reworked guides to autoupdate on tagged posts
 
 ## 2022/02/12
 - Updated powder guide to reflect [2022/02/09 silent patch removing recasts](https://youtu.be/liyUnSFZCP4)
