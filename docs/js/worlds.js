@@ -1,7 +1,7 @@
 let worldJson;
 let finalArray = [];
 async function getWorlds(callback) {
-  let response = await fetch('https://athena.wynntils.com/cache/get/serverList', {
+  let response = await fetch('https://desolate-oasis-19576.herokuapp.com/https://athena.wynntils.com/cache/get/serverList', {
       method: "GET", 
       headers: {
           "Content-Type" : "application/json",
