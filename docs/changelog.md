@@ -8,6 +8,7 @@ permalink: /changelog/
 - ID PAGE LINKS!!!
 - Various corrections & additions to ID and cbvocab
 - fixed mobile hamburger menu appearing behind box
+- bottom github actually links to repo now
 
 ## 2022/03/29
 - ELEDEF GUIDE ELEDEF GUIDE

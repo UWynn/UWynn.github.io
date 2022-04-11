@@ -30,7 +30,7 @@ sass:
 minima:
   skin: dark
   social_links:
-    github: SayaDuck
+    github: UWynn/UWynn.github.io
 plugins:
   - jekyll-feed
 collections:
