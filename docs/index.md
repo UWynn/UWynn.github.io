@@ -39,7 +39,7 @@ layout: default
       </div>
       <div class="card-body d-flex flex-column">
         <h5 class="card-title">ID list</h5>
-        <p class="card-text">Every ID in the game, defined. Includes stats and Major IDs.</p>
+        <p class="card-text">Every ID in the game defined. Includes stats and Major IDs.</p>
         <a href="/ID/" class="btn btn-outline-light text-light mt-auto">ID</a>
       </div>
     </div>
