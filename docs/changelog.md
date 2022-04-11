@@ -7,6 +7,7 @@ permalink: /changelog/
 - note on quest page that it's currently not maintained
 - ID PAGE LINKS!!!
 - Various corrections & additions to ID and cbvocab
+- fixed mobile hamburger menu appearing behind box
 
 ## 2022/03/29
 - ELEDEF GUIDE ELEDEF GUIDE
