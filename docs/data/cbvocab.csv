@@ -45,5 +45,23 @@ void,Other,Not a build type. Revamp name of EWA. (please don't use revamp names)
 heavy poison,Build Types,"Poison damage focused build type, using high poison items with -tier."
 heavy spell,Build Types,Spell damage focused build type with high spell costs and high damage. Doesn't really exist right now.
 base damage,Analytical Terms,The damage listed on a weapon.
-"base dps (what's usually called ""base"")",Analytical Terms,DPS of a weapon (factoring in attack speed). What spell calculations are based on.
+"base dps (what's usually referred to as ""base"")",Analytical Terms,DPS of a weapon (factoring in attack speed). What spell calculations are based on.
 postpowder base,Analytical Terms,Base after powders are factored in.
+cursestack,Strategies,"Stacking the powder special Curse. Formerly used most often in the context of Time Rift, before Sorcery recasting powder specials was removed."
+couragestack,Strategies,"Stacking the powder special Courage. Formerly used most often in the context of Time Rift, before Sorcery recasting powder specials was removed."
+powderstack,Strategies,Blanket term for cursestack and couragestack.
+steals,Vocabulary,Refers to both Life and Mana steal.
+spell cycling,Strategies,"Casting spells in a manner where mana will not run out, resetting the increasing spell costs on consecutive casts with a different spell."
+downstacking,Strategies,Lowering attack speed.
+glass cannon,Build Types,General term for builds that sacrifice bulk and sustain for damage.
+reqless,Vocabulary,Requirement-less. (No skill point requirement)
+quake,Vocabulary,Earth powder special for weapons.
+chain lightning,Vocabulary,Thunder powder special for weapons.
+curse,Vocabulary,Water powder special for weapons.
+courage,Vocabulary,Fire powder special for weapons.
+wind prison,Vocabulary,Air powder special for weapons.
+rage,Vocabulary,Earth powder special for armor.
+kill streak,Vocabulary,Thunder powder special for armor.
+concentration,Vocabulary,Water powder special for armor.
+endurance,Vocabulary,Fire powder special for armor.
+dodge,Vocabulary,Air powder special for armor.
