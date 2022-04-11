@@ -3,6 +3,11 @@ layout: page
 title: Changelog
 permalink: /changelog/
 ---
+## 2022/04/11
+- note on quest page that it's currently not maintained
+- ID PAGE LINKS!!!
+- Various corrections & additions to ID and cbvocab
+
 ## 2022/03/29
 - ELEDEF GUIDE ELEDEF GUIDE
 - reworked guides to autoupdate on tagged posts
