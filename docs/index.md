@@ -58,9 +58,9 @@ layout: default
         Standardized terms?
       </div>
       <div class="card-body d-flex flex-column">
-        <h5 class="card-title">Class Builds Dictionary</h5>
-        <p class="card-text">It's a(nother) table, this time for class build vocabulary.</p>
-        <a href="/cbvocab/" class="btn btn-outline-light text-light mt-auto">cbvocab</a>
+        <h5 class="card-title">Vocabulary</h5>
+        <p class="card-text">Ever wondered why people say "WFA" and "sfax"?</p>
+        <a href="/vocab/" class="btn btn-outline-light text-light mt-auto">cbvocab</a>
       </div>
     </div>
     <div class="card text-white bg-dark mb-3 me-3 col-sm-6" style="width: 18rem;">
