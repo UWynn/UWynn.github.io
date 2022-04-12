@@ -8,6 +8,9 @@ permalink: /changelog/
 - ID and vocab JS-free!
 - legacy datatable pages made and linked
 - ID filenames and page name renamed to be consistent ID (instead of IDs, ID)
+- Aarontti shoutout
+- OGP stuff
+- faq doesn't exist yet
 
 ## 2022/04/11
 - note on quest page that it's currently not maintained
