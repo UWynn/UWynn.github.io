@@ -3,6 +3,9 @@ layout: page
 title: Changelog
 permalink: /changelog/
 ---
+## 2022/04/12
+- Prepping to eliminate js where it isn't needed (moved data to _data and changed paths where applicable)
+
 ## 2022/04/11
 - note on quest page that it's currently not maintained
 - ID PAGE LINKS!!!

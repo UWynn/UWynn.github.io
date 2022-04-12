@@ -21,7 +21,7 @@ Every stat and ID (including Major IDs) defined and explained.
       return "";
     }
     CsvToHtmlTable.init({
-      csv_path: '/data/IDs.csv', 
+      csv_path: '/_data/IDs.csv', 
       element: 'table-container', 
       allow_download: false,
       csv_options: {separator: ',', delimiter: '"'},
