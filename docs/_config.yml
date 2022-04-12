@@ -25,6 +25,8 @@ github_username:  SayaDuck
 markdown: kramdown
 sass:
   sass_dir: _sass
+include:
+  - _data
 
 #theme: minima
 minima:
@@ -33,6 +35,7 @@ minima:
     github: UWynn/UWynn.github.io
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 collections:
   authors:
     output: true
