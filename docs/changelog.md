@@ -9,7 +9,7 @@ permalink: /changelog/
 - legacy datatable pages made and linked
 - ID filenames and page name renamed to be consistent ID (instead of IDs, ID)
 - Aarontti shoutout
-- OGP stuff
+- ~~OGP stuff~~ i'll make it work eventually...
 - faq doesn't exist yet
 
 ## 2022/04/11
