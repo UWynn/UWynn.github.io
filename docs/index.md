@@ -30,7 +30,7 @@ layout: default
       <div class="card-body d-flex flex-column">
         <h5 class="card-title">FAQ</h5>
         <p class="card-text">Quick answers to quick questions.</p>
-        <a href="#" class="btn btn-outline-light text-light mt-auto">soon</a>
+        <a href="#" class="btn btn-outline-dark text-light mt-auto">soon</a>
       </div>
     </div>
     <div class="card text-white bg-dark mb-3 me-3 col-sm-6" style="width: 18rem;">
