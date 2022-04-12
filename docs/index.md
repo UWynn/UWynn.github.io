@@ -1,5 +1,6 @@
 ---
 layout: default
+image: /assets/images/UWynnIcon.png
 ---
 <div class="container justify-content-center">
   <div class="row justify-content-center">
