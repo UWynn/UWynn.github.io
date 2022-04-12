@@ -1,16 +1,17 @@
 ---
 layout: page
-title: ID
-permalink: /ID/
+title: Vocabulary
+permalink: /vocab/
+redirect_from: 
+  - /cbvocab/
 ---
-Old searchable version with JavaScript: [here](/ID-js/)
-
-Every stat and ID (including Major IDs) defined and explained.
+Old searchable version with JavaScript: [here](/vocab-js/)
 
 <p>Have a question? Something missing? Contact Saya#8503 on Discord or leave a post on the <a href="https://forums.wynncraft.com/threads/uwynn-release-thread.295591/">release thread</a>.</p>
+<div id="table-container" class="table-dark"></div>
 
 <table class="table-dark">
-  {% for row in site.data.ID %}
+  {% for row in site.data.vocab %}
     {% if forloop.first %}
     <tr>
       {% for pair in row %}
@@ -21,11 +22,7 @@ Every stat and ID (including Major IDs) defined and explained.
     <tr>
       {% for pair in row %}
         <td>
-          {% if forloop.index == 6 and pair[1] %}
-            <a href="{{ pair[1] }}">Additional Info</a>
-          {% else %}
-            {{ pair[1] }}
-          {% endif %}
+          {{ pair[1] }}
         </td>
       {% endfor %}
     </tr>

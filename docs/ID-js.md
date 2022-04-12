@@ -1,6 +1,6 @@
 ---
 layout: page
-title: IDs (Old searchable version w/ JS)
+title: ID (Old searchable version w/ JS)
 permalink: /ID-js/
 ---
 Version without JavaScript: [here](/ID/)
@@ -23,7 +23,7 @@ Every stat and ID (including Major IDs) defined and explained.
       return "";
     }
     CsvToHtmlTable.init({
-      csv_path: '/_data/IDs.csv', 
+      csv_path: '/_data/ID.csv', 
       element: 'table-container', 
       allow_download: false,
       csv_options: {separator: ',', delimiter: '"'},
