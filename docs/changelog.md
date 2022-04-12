@@ -11,6 +11,7 @@ permalink: /changelog/
 - Aarontti shoutout
 - ~~OGP stuff~~ i'll make it work eventually...
 - faq doesn't exist yet
+- small vocab update ft. ingo & sfax
 
 ## 2022/04/11
 - note on quest page that it's currently not maintained
