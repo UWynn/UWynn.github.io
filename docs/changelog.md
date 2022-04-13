@@ -3,6 +3,9 @@ layout: page
 title: Changelog
 permalink: /changelog/
 ---
+## 2022/04/13
+- oops forgot to change link text for vocab
+
 ## 2022/04/12
 - Prepping to eliminate js where it isn't needed (moved data to _data and changed paths where applicable)
 - ID and vocab JS-free!
