@@ -276,6 +276,7 @@ DEPENDENCIES
   github-pages (~> 214)
   jekyll-feed (~> 0.6)
   jekyll-redirect-from
+  jekyll-seo-tag
   kramdown-parser-gfm
   sprockets (~> 3.7)
   tzinfo (~> 1.2)
@@ -284,4 +285,4 @@ DEPENDENCIES
   webrick (~> 1.7)
 
 BUNDLED WITH
-   2.2.17
+   2.3.11

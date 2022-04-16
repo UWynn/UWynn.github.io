@@ -17,7 +17,7 @@ Every stat and ID (including Major IDs) defined and explained.
         <th>{{ pair[0] }}</th>
       {% endfor %}
     </tr>
-    {% else %}
+    {% endif %}
     <tr>
       {% for pair in row %}
         <td>
@@ -29,6 +29,5 @@ Every stat and ID (including Major IDs) defined and explained.
         </td>
       {% endfor %}
     </tr>
-    {% endif %}
   {% endfor %}
 </table>

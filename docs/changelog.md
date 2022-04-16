@@ -3,6 +3,9 @@ layout: page
 title: Changelog
 permalink: /changelog/
 ---
+## 2022/04/16
+- made a big oopsie, top rows of id and vocab no longer gone
+
 ## 2022/04/13
 - oops forgot to change link text for vocab
 

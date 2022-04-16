@@ -18,7 +18,7 @@ Old searchable version with JavaScript: [here](/vocab-js/)
         <th>{{ pair[0] }}</th>
       {% endfor %}
     </tr>
-    {% else %}
+    {% endif %}
     <tr>
       {% for pair in row %}
         <td>
@@ -26,6 +26,5 @@ Old searchable version with JavaScript: [here](/vocab-js/)
         </td>
       {% endfor %}
     </tr>
-    {% endif %}
   {% endfor %}
 </table>
