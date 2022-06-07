@@ -6,7 +6,9 @@ permalink: /worlds/
 
 Please don't spam refresh. If nothing shows up, refresh once and it should work. If nothing shows even after reloading, Athena may be down at the moment.
 
-Data from [Athena](https://github.com/Wynntils/Athena). Soul Point default sort version [here](/sptime/).
+Data from [Athena](https://github.com/Wynntils/Athena). If the table is blank, Athena is down.
+
+Soul Point default sort version [here](/sptime/).
 
 The table is sortable, click on column headers.
 

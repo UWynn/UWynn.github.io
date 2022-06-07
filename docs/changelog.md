@@ -4,6 +4,9 @@ title: Changelog
 permalink: /changelog/
 ---
 ## 2022/04/16
+- clarification if worlds and sptime isn't showing up
+
+## 2022/04/16
 - made a big oopsie, top rows of id and vocab no longer gone
 
 ## 2022/04/13
