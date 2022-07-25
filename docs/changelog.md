@@ -3,6 +3,10 @@ layout: page
 title: Changelog
 permalink: /changelog/
 ---
+## 2022/07/25
+- thorns typo in id
+- wind prison vid in powders
+
 ## 2022/04/16
 - clarification if worlds and sptime isn't showing up
 
