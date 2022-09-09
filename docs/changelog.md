@@ -3,6 +3,10 @@ layout: page
 title: Changelog
 permalink: /changelog/
 ---
+## 2022/09/09
+- outdated psa
+- happy cirno day
+
 ## 2022/07/25
 - thorns typo in id
 - wind prison vid in powders
