@@ -3,6 +3,9 @@ layout: page
 title: Changelog
 permalink: /changelog/
 ---
+## 2022/12/17
+- hoping athena lets me yoink data
+
 ## 2022/09/09
 - outdated psa
 - happy cirno day
